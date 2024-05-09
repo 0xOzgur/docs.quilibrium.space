@@ -2,69 +2,80 @@
 
 ## Prepare Requirements
 
-Before you can install Docker Engine, you need to uninstall any conflicting packages.
+The Docker installation package available in the official Ubuntu repository may not be the latest version. To ensure we get the latest version, we’ll install Docker from the official Docker repository. To do that, we’ll add a new package source, add the GPG key from Docker to ensure the downloads are valid, and then install the package.
 
-Distro maintainers provide unofficial distributions of Docker packages in APT. You must uninstall these packages before you can install the official version of Docker Engine.
+First, update your existing list of packages:
 
-The unofficial packages to uninstall are:
-
-* `docker.io`
-* `docker-compose`
-* `docker-compose-v2`
-* `docker-doc`
-* `podman-docker`
-
-Run the following command to uninstall all conflicting packages:
-
-{% code overflow="wrap" lineNumbers="true" %}
 ```bash
-for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+sudo apt update
 ```
-{% endcode %}
 
-`apt-get` might report that you have none of these packages installed.
+Copy
 
-Install Docker With
+Next, install a few prerequisite packages which let `apt` use packages over HTTPS:
 
-## Install Using the Apt Repository
-
-Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
-
-1.  Set up Docker's `apt` repository.
-
-    {% code overflow="wrap" %}
-    ```bash
-    # Add Docker's official GPG key:
-    sudo apt-get update
-    sudo apt-get install ca-certificates curl
-    sudo install -m 0755 -d /etc/apt/keyrings
-    sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-    sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-    # Add the repository to Apt sources:
-    echo \
-      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-    sudo apt-get update
-    ```
-    {% endcode %}
-
-**Note**
-
-If you use an Ubuntu derivative distro, such as Linux Mint, you may need to use `UBUNTU_CODENAME` instead of `VERSION_CODENAME`.
-
-## **İnstall the Docker packages.**
-
-***
-
-To install the latest version, run:
-
-{% code overflow="wrap" lineNumbers="true" %}
 ```bash
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin doc
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
-{% endcode %}
+
+Copy
+
+Then add the GPG key for the official Docker repository to your system:
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
+
+Copy
+
+Add the Docker repository to APT sources:
+
+```bash
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+Copy
+
+Update your existing list of packages again for the addition to be recognized:
+
+```bash
+sudo apt update
+```
+
+Copy
+
+Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+
+```bash
+apt-cache policy docker-ce
+```
+
+Copy
+
+You’ll see output like this, although the version number for Docker may be different:
+
+Output of apt-cache policy docker-ce
+
+```bash
+docker-ce:
+  Installed: (none)
+  Candidate: 5:20.10.14~3-0~ubuntu-jammy
+  Version table:
+     5:20.10.14~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+     5:20.10.13~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+```
+
+Notice that `docker-ce` is not installed, but the candidate for installation is from the Docker repository for Ubuntu 22.04 (`jammy`).
+
+Finally, install Docker:
+
+```bash
+sudo apt install docker-ce
+```
+
+Docker should now be installed, the daemon started, and the process enabled to start on boot.
 
 ## Build
 
