@@ -101,28 +101,6 @@ docker compose up -d
 
 A `.config/` subfolder will be created under the current folder, this is mapped inside the container. Make sure you backup `config.yml` and `keys.yml`.
 
-#### Resource management
-
-To ensure that your client performs optimally within a specific resource configuration, you can specify resource limits and reservations in the node configuration as illustrated below.
-
-This configuration helps in deploying the client with controlled resource usage, such as CPU and memory, to avoid overconsumption of resources in your environment.
-
-The [docker-compose.yml](https://github.com/QuilibriumNetwork/ceremonyclient/blob/main/docker-compose.yml) file already specifies resources following the currently recommended hardware requirements.
-
-```
-services:
-  node:
-    # Some other configuration sections here
-    deploy:
-      resources:
-        limits:
-          cpus: '4'  # Maximum CPU count that the container can use
-          memory: '16G'  # Maximum memory that the container can use
-        reservations:
-          cpus: '2'  # CPU count that the container initially requests
-          memory: '8G'  # Memory that the container initially request
-```
-
 #### Customizing docker-compose.yml
 
 If you want to change certain parameters in [docker-compose.yml](https://github.com/QuilibriumNetwork/ceremonyclient/blob/main/docker-compose.yml) it is better not to edit the file directly as new versions pushed through git would overwrite your changes. A more flexible solution is to create another file called `docker-compose.override.yml` right next to it and specifying the necessary overriding changes there.
