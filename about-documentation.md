@@ -2,7 +2,7 @@
 
 Please note that this documentation is not an official and prepared voluntarily by [0xOzgur](https://github.com/0xOzgur).&#x20;
 
-Souces used to create this documentation are prepared by [0xOzgur](https://github.com/0xOzgur),  [Demipoet](https://github.com/demipoet/) and [Mscurtescu](https://github.com/mscurtescu).
+Souces used to create this documentation are prepared by [0xOzgur](https://github.com/0xOzgur), [Mscurtescu](https://github.com/mscurtescu) and [Demipoet](https://github.com/demipoet/).
 
 Special thanks to;
 

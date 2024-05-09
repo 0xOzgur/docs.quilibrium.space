@@ -8,13 +8,13 @@ description: >-
 
 ### Configure your Node Network Firewall  Run:
 
-```
+```bash
 sudo ufw enable
 ```
 
 Type `y` and press `enter` or `return` on keyboard Run:
 
-```
+```bash
 sudo ufw allow 22
 sudo ufw allow 8336
 sudo ufw allow 443
@@ -23,7 +23,7 @@ sudo ufw status
 
 Response for the status command should be:
 
-```
+```bash
 > To            Action            From
 > --            ------            -----
 > 22            ALLOW             Anywhere
@@ -41,19 +41,19 @@ Note: This interface, while read-only, is unauthenticated and not rate-limited. 
 \
 Go to ceremonyclient/node folder.
 
-```
+```bash
 cd ~/ceremonyclient/node
 ```
 
 Run:
 
-```
+```bash
 sudo nano .config/config.yml
 ```
 
 At the end of file, there is a field `listenGrpcMultiaddr: “”`, replace it with
 
-```
+```bash
 listenGrpcMultiaddr: /ip4/127.0.0.1/tcp/8337
 listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
@@ -62,13 +62,13 @@ listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 
 Go to ceremonyclient/node folder.
 
-```
+```bash
 cd ~/ceremonyclient/node
 ```
 
 Run:
 
-```
+```bash
 sudo nano .config/config.yml
 ```
 

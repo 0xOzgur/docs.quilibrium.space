@@ -2,7 +2,7 @@
 
 You must clone latest version of ceremony client.
 
-```
+```bash
 cd ~
 git  clone  https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
@@ -11,7 +11,7 @@ _If you want to run your node via docker, please follow Installing_ [_Docker ins
 
 Go to the ceremonyclient/node folder
 
-```
+```bash
 cd ceremonyclient/node
 ```
 
@@ -19,13 +19,13 @@ All commands are to be run in the `node/` folder.
 
 If you have a voucher from the offline ceremony, first run:
 
-```
+```bash
 GOEXPERIMENT=arenas go run ./... -import-priv-key `cat /path/to/voucher.hex`
 ```
 
 If you do not, or have already run the above, run:
 
-```
+```bash
 GOEXPERIMENT=arenas go run ./...
 ```
 

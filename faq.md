@@ -30,7 +30,7 @@ GOEXPERIMENT=arenas go run ./...
 
 **I'm getting the error below when I run the -balance command flag, what am I doing wrong?**
 
-```
+```bash
 panic: error getting token info: rpc error: code = Unknown desc = get token info : get highest candidate data clock frame: item not found
 goroutine 1 [running]:
 main.main()

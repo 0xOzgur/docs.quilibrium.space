@@ -11,7 +11,7 @@ description: >-
 
 At first, you need to install qclient to use CLI commands.
 
-```
+```bash
 cd ceremonyclient/client
 go build -o qclient
 
@@ -21,7 +21,7 @@ go build -o qclient
 
 The CLI tooling itself will be relatively simple, and the commands can be run as follows (assuming a build in the accompanying _/client_ folder rather than `go run ./...`:
 
-```
+```bash
 client [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param2> <...>
 ```
 
@@ -31,13 +31,13 @@ The command line tool takes arguments in either decimal (xx.xxxxx) format or raw
 \
 Command:
 
-```
+```bash
 ./qclient token balance
 ```
 
 Response:
 
-```
+```bash
 $ qclient token balance
 50.0 QUIL (Account 0x23c0f371e9faa7be4ffedd616361e0c9aeb776ae4d7f3a37605ecbfa40a55a90)
 ```
@@ -48,13 +48,13 @@ Users may wish to view the individual coins:\
 \
 Command:
 
-```
+```bash
 ./qclient token coins
 ```
 
 Response:
 
-```
+```bash
 $ qclient token coins
 25.0 QUIL (Coin 0x1148092cdce78c721835601ef39f9c2cd8b48b7787cbea032dd3913a4106a58d)
 25.0 QUIL (Coin 0x2dda9dc9770a1e5a01974fcd5af2a77147d0f19fb4935a1df677ec6050be0a9e)
@@ -66,21 +66,21 @@ Quilibrium's token application has two modes: a two-stage transfer/accept (or re
 \
 Command:
 
-```
+```bash
 ./qclient token transfer <ToAccount> <RefundAccount> <Amount|OfCoin>
 ```
 
 Response:\
 To perform a two-stage transfer, you have two options:
 
-```
+```bash
 ./qclient token transfer <ToAccount> <RefundAccount> <Amount>
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
 
 or
 
-```
+```bash
 ./qclient token transfer <ToAccount> <RefundAccount> <OfCoin>
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
@@ -89,7 +89,7 @@ Omitting the RefundAccount will simply provide your own originating account. The
 
 The first is a user-friendly version of a transfer, akin to what account-based networks like Ethereum and Solana do, where you operate on a balance. Behind the scenes, the client is actually splitting and/or merging coins as needed in order to create the requisite amount to send as a discrete coin. The second is an application-aware version of a transfer, akin to what UTXO-based networks like Bitcoin do, where you operate on the raw coin balance under a specific address. If you have good reason to manage coins separately (yet under the control of the same managing account), you will want to use the second option in conjunction with split/merge operations if needed:
 
-```
+```bash
 ./qclient token split <OfCoin> <LeftAmount> <RightAmount>
 <LeftAmount> QUIL (Coin 0x024479f49f03dc53fd702198cd9b548c9e96004e19ef6a4e9c5211a9795ba34d)
 <RightAmount> QUIL (Coin 0x0140e01731256793bba03914f3844d645fbece26553acdea8ac4de4d84f91690)
@@ -102,14 +102,14 @@ The first is a user-friendly version of a transfer, akin to what account-based n
 
 To accept a pending transaction, you simply run:
 
-```
+```bash
 ./qclient token accept <PendingTransaction>
 <Amount> QUIL (Coin 0x2688997f2776ab5993894ed04fcdac05577cf2494ddfedf356ebf8bd3de464ab)
 ```
 
 The same applies for rejecting a pending transaction
 
-```
+```bash
 ./qclient token reject <PendingTransaction>
 <Amount> QUIL (PendingTransaction 0x27fff099dee515ece193d2af09b164864e4bb60c19eb6719b5bc981f92151009)
 ```
@@ -123,7 +123,7 @@ Pending transactions introduce friction, but without that friction, users can be
 \
 On the receiver's side:
 
-```
+```bash
 ./qclient token mutual-receive <ExpectedAmount>
 Rendezvous: 0x2ad567e4fc1ac335a8d3d6077de2ee998aff996b51936da04ee1b0f5dc196a4f
 Awaiting sender...
@@ -131,14 +131,14 @@ Awaiting sender...
 
 and after the sender connects:
 
-```
+```bash
 Awaiting sender... OK
 <Amount> QUIL (Coin 0x0525c76ecdc6ef21c2eb75df628b52396adcf402ba26a518ac395db8f5874a82)
 ```
 
 On the sender's side:
 
-```
+```bash
 ./qclient token mutual-transfer <Rendezvous> <Amount>
 Confirming rendezvous... OK
 <Amount> QUIL (Coin [private])
@@ -146,7 +146,7 @@ Confirming rendezvous... OK
 
 or if using the raw Coin address:
 
-```
+```bash
 ./qclient token mutual-transfer <Rendezvous> <OfCoin>
 Confirming rendezvous... OK
 <Amount> QUIL (Coin [private])
@@ -160,7 +160,7 @@ Tokens issued after 1.5.0 are issued by nodes providing their proofs to the Mint
 \
 If you wish to do it manually however, you will need to run:
 
-```
+```bash
 ./qclient token mint all
 <Amount> QUIL (Coin 0x162ad88c319060b4f5ea6dbf9a0c2cd82d3d70dfc22d5fc99ca5371083d68416)
 ```

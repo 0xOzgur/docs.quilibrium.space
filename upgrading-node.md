@@ -10,7 +10,7 @@ description: >-
 
 First, run:
 
-```
+```bash
 service ceremonyclient status
 ```
 
@@ -18,43 +18,43 @@ Press `ctrl` + `c` on your keyboard twice, to exit the status section in the ter
 If the response says service is Inactive, proceed to git fetch command below.\
 If response says service is Active, run:
 
-```
+```bash
 service ceremonyclient stop
 ```
 
 Go to ceremonyclient folder.
 
-```
+```bash
 cd ~/ceremonyclient
 ```
 
 Check whether some files are updated in the ceremonyclient git repo, run:
 
-```
+```bash
 git fetch origin
 ```
 
 If there are files shown that are changed or different from your local copy, run:
 
-```
+```bash
 git merge origin
 ```
 
 Go to ceremonyclient/node folder.
 
-```
+```bash
 cd ~/ceremonyclient/node
 ```
 
 Next, do a `go clean` command to clear all previous build files. Run:
 
-```
+```bash
 GOEXPERIMENT=arenas go clean -v -n -a ./...
 ```
 
 Next, remove the compiled go binary file `node`, run:
 
-```
+```bash
 rm /root/go/bin/node
 ls /root/go/bin
 ```
@@ -63,13 +63,13 @@ The `ls` command should respond empty\
 \
 Next, make a new build compiled binary file `node`, run:
 
-```
+```bash
 GOEXPERIMENT=arenas  go  install  ./...
 ```
 
 Verify that the `node` binary is built again, run:
 
-```
+```bash
 ls /root/go/bin
 ```
 
@@ -79,7 +79,7 @@ Response should show
 
 Lastly, start your Q Node via the service command, run:
 
-```
+```bash
 service ceremonyclient start
 ```
 
@@ -87,13 +87,13 @@ service ceremonyclient start
 
 Create a file named update.sh in your server and put the code below.
 
-```
+```bash
 sudo nano update.sh
 ```
 
 Copy the code below into update.sh
 
-```
+```bash
 #!/bin/bash
 
 # Stop the ceremonyclient service
@@ -120,13 +120,13 @@ service ceremonyclient start
 
 Save the file and then run;
 
-```
+```bash
 chmod u+x update.sh
 ```
 
 When you need to update your node, you can run update.sh
 
-```
+```bash
 ./update.sh
 ```
 
