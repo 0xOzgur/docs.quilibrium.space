@@ -70,6 +70,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 The only requirements are `git` (to checkout the repository) and docker (to build the image and run the container). Golang does not have to be installed, the docker image build process uses a build stage that provides the correct Go environment and compiles the node down to one command.
 
+```bash
+git https://github.com/QuilibriumNetwork/ceremonyclient.git
+cd ceremonyclient
+```
+
 In the repository root folder, where the [Dockerfile](https://github.com/QuilibriumNetwork/ceremonyclient/blob/main/Dockerfile) file is, build the docker image:
 
 {% code overflow="wrap" lineNumbers="true" %}
