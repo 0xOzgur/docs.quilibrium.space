@@ -10,8 +10,6 @@ First, update your existing list of packages:
 sudo apt update
 ```
 
-Copy
-
 Next, install a few prerequisite packages which let `apt` use packages over HTTPS:
 
 {% code overflow="wrap" lineNumbers="true" %}
@@ -19,8 +17,6 @@ Next, install a few prerequisite packages which let `apt` use packages over HTTP
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 {% endcode %}
-
-Copy
 
 Then add the GPG key for the official Docker repository to your system:
 
@@ -30,17 +26,13 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 ```
 {% endcode %}
 
-Copy
-
 Add the Docker repository to APT sources:
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 {% endcode %}
-
-Copy
 
 Update your existing list of packages again for the addition to be recognized:
 
@@ -48,15 +40,11 @@ Update your existing list of packages again for the addition to be recognized:
 sudo apt update
 ```
 
-Copy
-
 Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
 
 ```bash
 apt-cache policy docker-ce
 ```
-
-Copy
 
 You’ll see output like this, although the version number for Docker may be different:
 
