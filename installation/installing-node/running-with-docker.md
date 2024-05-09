@@ -155,7 +155,7 @@ Run the DB console:
 docker compose exec node node -db-console
 ```
 
-Run the Quilibrium client:
+## Run the Quilibrium client
 
 ```bash
 docker compose exec node qclient help
@@ -163,7 +163,7 @@ docker compose exec node qclient token help
 docker compose exec node qclient token balance
 ```
 
-### How to use gRPCurl with a Quilibrium node
+## How to use gRPCurl with a Quilibrium node
 
 The Docker image has `grpcurl` installed, you can use that instance through `docker exec`, for example:
 
@@ -175,13 +175,10 @@ docker compose exec node grpcurl -plaintext localhost:8337 quilibrium.node.node.
 
 ### List Services
 
-
-
 List available services:
 
-```bash
-grpcurl -plaintext localhost:8337 list
-```
+<pre class="language-bash"><code class="lang-bash"><strong>docker compose exec node grpcurl -plaintext localhost:8337 list
+</strong></code></pre>
 
 Output:
 
@@ -199,7 +196,7 @@ List supported method by `NodeService`:
 
 {% code overflow="wrap" %}
 ```bash
-sudo docker compose exec node grpcurl -plaintext localhost:8337 list quilibrium.node.node.pb.NodeService
+docker compose exec node grpcurl -plaintext localhost:8337 list quilibrium.node.node.pb.NodeService
 ```
 {% endcode %}
 
@@ -220,7 +217,7 @@ To get a description of the `GetNodeInfo` method:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-sudo docker compose exec node grpcurl -plaintext localhost:8337 describe quilibrium.node.node.pb.NodeService.GetNodeInfo
+docker compose exec node grpcurl -plaintext localhost:8337 describe quilibrium.node.node.pb.NodeService.GetNodeInfo
 ```
 {% endcode %}
 
@@ -239,7 +236,7 @@ How to call `GetNodeInfo`:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-sudo docker compose exec node grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetNodeInfo
+docker compose exec node grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetNodeInfo
 ```
 {% endcode %}
 
@@ -258,7 +255,7 @@ As you can see the output has both the peer id and the max frame that the node i
 
 You can call `GetTokenInfo` to see balances:
 
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>sudo docker compose exec node grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetTokenInfo
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>docker compose exec node grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetTokenInfo
 </strong></code></pre>
 
 Output:
@@ -282,7 +279,7 @@ Call `GetPeerInfo` to get info about all the nodes:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-sudo docker compose exec node grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | less
+docker compose exec node grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | less
 ```
 {% endcode %}
 
@@ -327,7 +324,7 @@ Run this command to count how many nodes are there:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-sudo docker compose exec node grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | grep peerId | wc -l
+docker compose exec node grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | grep peerId | wc -l
 ```
 {% endcode %}
 
