@@ -6,7 +6,7 @@ description: >-
 
 # Upgrading Node
 
-### Manual Upgrade your Q Node to latest release
+## Manual Upgrade your Q Node to latest release
 
 First, run:
 
@@ -83,7 +83,7 @@ Lastly, start your Q Node via the service command, run:
 service ceremonyclient start
 ```
 
-### Upgrading via Update Script
+## Upgrading via Update Script
 
 Create a file named update.sh in your server and put the code below.
 
@@ -130,3 +130,36 @@ When you need to update your node, you can run update.sh
 ./update.sh
 ```
 
+## Upgrading Docker Node
+
+Go to ceremonyclient folder.
+
+```bash
+cd ~/ceremonyclient
+```
+
+Stop the node
+
+```
+docker compose down
+```
+
+Check whether some files are updated in the ceremonyclient git repo, run:
+
+```bash
+git fetch origin
+```
+
+If there are files shown that are changed or different from your local copy, run:
+
+```bash
+git merge origin
+```
+
+Build node;
+
+```
+docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.16 .
+```
+
+Use latest version instead of `1.4.16`.
