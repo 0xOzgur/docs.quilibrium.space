@@ -158,8 +158,10 @@ git merge origin
 
 Build node;
 
-```
+{% code overflow="wrap" %}
+```bash
 docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.16 .
 ```
+{% endcode %}
 
 Use latest version instead of `1.4.16`.
