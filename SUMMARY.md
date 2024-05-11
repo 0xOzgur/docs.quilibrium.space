@@ -9,6 +9,7 @@
     * [Running With Docker](installation/installing-node/running-with-docker.md)
   * [Configurations](installation/configurations.md)
 * [Upgrading Node](upgrading-node.md)
+* [Claiming wQuil Token](claiming-wquil-token.md)
 * [CLI Commands](cli-commands.md)
 * [FAQ](faq.md)
 * [Important Links](important-links.md)

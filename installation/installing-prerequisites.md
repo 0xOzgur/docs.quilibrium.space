@@ -26,7 +26,7 @@ It must show:
 
 **Installing GO**
 
-You must install strictly Go version 1.20.14 for amd64 systems. If you are using arm64 system, you need the change releases links and commands with arm64 instead of amd64
+You must install strictly Go version 1.20.14 for **amd64** systems. If you are using arm64 system, you need the change releases links and commands with **arm64** instead of **amd64**
 
 ```bash
 wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
