@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: 1.4.17 (Aruora) as of May 11, 2024'
+description: 'Current Version: 1.4.17 (Aurora) as of May 11, 2024'
 ---
 
 # Release Notes And Prerequisites
