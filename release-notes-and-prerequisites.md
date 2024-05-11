@@ -18,4 +18,4 @@ Source: [https://github.com/QuilibriumNetwork/ceremonyclient](https://github.com
 * 250GB of storage
 * 50MBps symmetric bandwidth
 
-~~With version 1.5, these minimum requirements will reduce significantly.~~
+With version 2, these minimum requirements will reduce significantly.

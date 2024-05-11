@@ -165,3 +165,9 @@ docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t q
 {% endcode %}
 
 Use latest version incase version is different than `1.4.17`.
+
+Start the node again
+
+```
+docker compose up -d
+```

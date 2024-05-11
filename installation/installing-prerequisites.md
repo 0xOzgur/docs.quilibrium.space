@@ -24,14 +24,12 @@ It must show:
 
 
 
-
-
 **Installing GO**
 
 You must install strictly Go version 1.20.14 for amd64 systems. If you are using arm64 system, you need the change releases links and commands with arm64 instead of amd64
 
 ```bash
-wget https://:go.dev/dl/go1.20.14.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
 sudo tar -xvf go1.20.14.linux-amd64.tar.gz
 sudo mv go /usr/local
 sudo rm go1.20.14.linux-amd64.tar.gz
