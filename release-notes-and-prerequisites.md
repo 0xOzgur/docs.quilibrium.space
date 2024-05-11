@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: 1.4.16 (Sunset) as of April 18, 2024'
+description: 'Current Version: 1.4.17 (Aruora) as of May 11, 2024'
 ---
 
 # Release Notes And Prerequisites
@@ -18,4 +18,4 @@ Source: [https://github.com/QuilibriumNetwork/ceremonyclient](https://github.com
 * 250GB of storage
 * 50MBps symmetric bandwidth
 
-With version 1.5, these minimum requirements will reduce significantly.
+~~With version 1.5, these minimum requirements will reduce significantly.~~
