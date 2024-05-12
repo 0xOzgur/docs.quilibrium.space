@@ -24,7 +24,7 @@ In order to claim your Quil tokens, qClient must be ready for use. Please check 
 
 If qClient is installed, you can claim your wQuil tokens via ETH Mainnet by following the steps below.
 
-<mark style="background-color:red;">Please note that, you will be claiming %100 of your rewards. It is impossible to claim partially.</mark>
+<mark style="color:yellow;">Please note that, you will be claiming %100 of your rewards. It is impossible to claim partially.</mark>
 
 1. Visit [Quilibrium.com](https://quilibrium.com)
 
@@ -46,7 +46,7 @@ Go to your qClient and past that command.&#x20;
 
 ```bash
 cd ceremonyclient/client
-.qclient cross-mint 0x000000000000000000000000000000
+client cross-mint 0x000000000000000000000000000000
 ```
 
 When you run that command, please copy output and paste your response as shown at the screenshot.
