@@ -4,7 +4,7 @@
 
 ## About Wrapped Quil Token
 
-wQuil token is the wrapped version of Quil tokens on the Equilibrium Network and represents a 1:1 ratio. It aims to free the circulation of Quil tokens until the Quilibrium crosschain-bridge is active. Currently, it will only be available on ETH Mainnet, and the Quilibrium crosschain bridge is planned to be opened with V2.
+wQuil token is the wrapped version of Quil tokens on the Equilibrium Network and represents a 1:1 ratio. It aims to free the circulation of Quil tokens until the Quilibrium cross-chain bridge is active. Currently, it will only be available on ETH Mainnet, and the Quilibrium crosschain bridge is planned to be opened with V2.
 
 ### Token Details
 
@@ -16,15 +16,15 @@ Network:
 
 Contract Code:
 
-<mark style="color:purple;">Plase add wQuil as custome token to your EVM wallet!</mark>
+<mark style="color:purple;">Plase add wQuil as custom token to your EVM wallet!</mark>
 
-## Step by Step Claiming
+## Step-by-Step Claiming
 
-In order to claim your Quil tokens, qClient must be ready for use. Please check the relevant page for [qClient installation](cli-commands.md#installing-qclient).
+To claim your wQuil tokens, you'll need a functional qClient. Please refer to the relevant page for [qClient installation instructions](cli-commands.md#installing-qclient).
 
 If qClient is installed, you can claim your wQuil tokens via ETH Mainnet by following the steps below.
 
-<mark style="color:yellow;">Please note that, you will be claiming %100 of your rewards. It is impossible to claim partially.</mark>
+<mark style="color:orange;">**Important:**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">You can claim all of your rewards at once. Partial claims are not currently supported.</mark>
 
 1. Visit [Quilibrium.com](https://quilibrium.com)
 
@@ -46,7 +46,7 @@ Go to your qClient and past that command.&#x20;
 
 ```bash
 cd ceremonyclient/client
-client cross-mint 0x000000000000000000000000000000
+./qclient cross-mint 0x000000000000000000000000000000
 ```
 
 When you run that command, please copy output and paste your response as shown at the screenshot.
@@ -54,7 +54,7 @@ When you run that command, please copy output and paste your response as shown a
 {% code title="Example" overflow="wrap" %}
 ```bash
 cd ceremonyclient/client
-client cross-mint 0x000000000000000000000000000000
+./qclient cross-mint 0x000000000000000000000000000000
 result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDyWDq9w6uM19hGyDKYB10EVOA", "peerSignature": "2ybumA9VuSrnr5nYPcjehGo/PK6uNI4¡VaOWXkEGms5ChqPFgOJX6Z5eng8U6VSHy85zbeZBukiANE3j2EBxrk4TAf4Z+5uuNMCQ6DasKpkgsxulOGWKhOcBa|2CDicinuMqafU 3YOrXH9cck/OkivwA""proverPublicKev": "CAk3innisW2Bocar/75/3dwiRSaFMRbhYhtCWd@Th77aDvOWFGaoMXIvKHw3B4+vFsmYlVaQ7/iA" "proverSianature".
 ```
 {% endcode %}
