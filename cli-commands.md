@@ -15,7 +15,8 @@ At first, you need to install qclient to use CLI commands.
 
 ```bash
 cd ceremonyclient/client
-GOEXPERIMENT=arenas go build -o qclient
+GOEXPERIMENT=arenas go build -o qclient main.go
+
 
 ```
 
