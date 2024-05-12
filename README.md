@@ -1,7 +1,9 @@
 # Introduction
 
-Welcome to the Documentation Site for the Quilibrium Space!
+## Welcome to the Quilibrium Space Docs!
 
-Quilibrium is a decentralized internet layer protocol, providing the creature comforts of Cloud without sacrificing privacy or scalability. With familiar API-compatible SDKs, switching to NoCloud may be easier than you think.
+Quilibrium offers the power and ease of cloud computing without compromising on privacy or scalability.&#x20;
 
-While documentation site is a work in progress, it will become a comprehensive resource for navigating and building with ease on Quilibrium.
+Quilibrium is a decentralized cloud protocol built for the future. It offers the power and ease of cloud computing without compromising on privacy or scalability. Familiar API-compatible SDKs make switching to a decentralized cloud easier than you think.
+
+Our documentation is constantly evolving to be a comprehensive resource for navigating and building with ease on Quilibrium.

@@ -12,7 +12,7 @@ Name:
 
 Ticker:
 
-Network:
+Network: ETH Mainnet
 
 Contract Code:
 

@@ -1,6 +1,6 @@
 # Running as a Service
 
-If you already installed and started node, you can build it as a service to manage easily.
+If you've already installed and started your Quilibrium Ceremony Client node, you can convert it to a service for easier management. This simplifies tasks like starting, stopping, and monitoring your node.
 
 ```bash
 nano /lib/systemd/system/ceremonyclient.service

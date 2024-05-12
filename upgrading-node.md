@@ -6,7 +6,7 @@ description: >-
 
 # Upgrading Node
 
-## Manual Upgrade your Q Node to latest release
+## Manually Upgrade your Q Node to latest release
 
 First, run:
 
@@ -83,7 +83,7 @@ Lastly, start your Q Node via the service command, run:
 service ceremonyclient start
 ```
 
-## Upgrading via Update Script
+## Upgrade via Update Script
 
 Create a file named update.sh in your server and put the code below.
 

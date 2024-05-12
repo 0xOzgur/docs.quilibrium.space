@@ -1,8 +1,8 @@
 # About Documentation
 
-Please note that this documentation is not an official and prepared voluntarily by [0xOzgur](https://github.com/0xOzgur).&#x20;
+This documentation is provided for informational purposes only and is not an official publication of Quilibrium. It was voluntarily created by [0xOzgur](https://github.com/0xOzgur).&#x20;
 
-Souces used to create this documentation are prepared by [0xOzgur](https://github.com/0xOzgur), [Mscurtescu](https://github.com/mscurtescu) and [Demipoet](https://github.com/demipoet/).
+This documentation leverages information from various sources, including contributions by [0xOzgur](https://github.com/0xOzgur), [Mscurtescu](https://github.com/mscurtescu) and [Demipoet](https://github.com/demipoet/).
 
 Special thanks to;
 
