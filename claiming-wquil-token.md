@@ -24,6 +24,8 @@ In order to claim your Quil tokens, qClient must be ready for use. Please check 
 
 If qClient is installed, you can claim your wQuil tokens via ETH Mainnet by following the steps below.
 
+<mark style="background-color:red;">Please note that, you will be claiming %100 of your rewards. It is impossible to claim partially.</mark>
+
 1. Visit [Quilibrium.com](https://quilibrium.com)
 
 <figure><img src=".gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure>
@@ -44,10 +46,20 @@ Go to your qClient and past that command.&#x20;
 
 ```bash
 cd ceremonyclient/client
-qclient cross-mint <code that website gave>
+.qclient cross-mint 0x000000000000000000000000000000
 ```
 
 When you run that command, please copy output and paste your response as shown at the screenshot.
+
+{% code title="Example" overflow="wrap" %}
+```bash
+cd ceremonyclient/client
+.qclient cross-mint 0x000000000000000000000000000000
+result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDyWDq9w6uM19hGyDKYB10EVOA", "peerSignature": "2ybumA9VuSrnr5nYPcjehGo/PK6uNI4¡VaOWXkEGms5ChqPFgOJX6Z5eng8U6VSHy85zbeZBukiANE3j2EBxrk4TAf4Z+5uuNMCQ6DasKpkgsxulOGWKhOcBa|2CDicinuMqafU 3YOrXH9cck/OkivwA""proverPublicKev": "CAk3innisW2Bocar/75/3dwiRSaFMRbhYhtCWd@Th77aDvOWFGaoMXIvKHw3B4+vFsmYlVaQ7/iA" "proverSianature".
+```
+{% endcode %}
+
+
 
 6. One last step, press claim buttun and approve necessary transactions
 
