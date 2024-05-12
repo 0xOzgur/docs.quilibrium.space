@@ -7,11 +7,9 @@ description: >-
 
 # CLI Commands
 
-Before you begin, ensure you have qClient installed on your system.&#x20;
-
 ## Installing qClient
 
-At first, you need to install qclient to use CLI commands.
+Before you begin, ensure you have qClient installed on your system.&#x20;
 
 ```bash
 cd ceremonyclient/client
