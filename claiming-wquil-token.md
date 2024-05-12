@@ -59,7 +59,14 @@ result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDy
 ```
 {% endcode %}
 
+**If you use Docker;**
 
+{% code overflow="wrap" %}
+```bash
+cd ceremonyclient/
+docker compose exec node qclient cross-mint --config .config 0x000000000000000000000000000000
+```
+{% endcode %}
 
 6. As a final step, click the "Claim" button and approve any required transactions in your wallet.
 
