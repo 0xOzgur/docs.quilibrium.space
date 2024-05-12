@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Release Notes And Prerequisites](release-notes-and-prerequisites.md)
+* [Release Notes And Prerequisites](release-notes-and-prerequisites/README.md)
+  * [Required Hardware](release-notes-and-prerequisites/required-hardware.md)
 * [Installation](installation/README.md)
   * [Installing Prerequisites](installation/installing-prerequisites.md)
   * [Installing Node](installation/installing-node/README.md)
