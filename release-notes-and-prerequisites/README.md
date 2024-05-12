@@ -18,4 +18,6 @@ Source: [https://github.com/QuilibriumNetwork/ceremonyclient](https://github.com
 * 250GB of storage
 * 50MBps symmetric bandwidth
 
+Please visit [Required Hardware](required-hardware.md) page for service provider and device recommendations recommended by the Cassandra Heart.
+
 With version 2, these minimum requirements will reduce significantly.

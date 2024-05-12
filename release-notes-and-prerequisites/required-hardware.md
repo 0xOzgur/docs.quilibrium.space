@@ -1,21 +1,21 @@
 # Required Hardware
 
-**Minimum System Requirements**
+## **Minimum System Requirements**
 
 * 8vCpu
 * 16GB of RAM
 * 250GB of storage
 * 50MBps symmetric bandwidth
 
-#### Get a VPS running Ubuntu
+## Suggested Service Provider
 
 Having partnered with [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW), a European provider of crypto-friendly bare metal and cloud solutions, we're thrilled to announce their custom server options for Q node runners. [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW) embraces the ideals of a free and decentralized internet, offering choice and flexibility without vendor lock-in. Their extensive experience (over 20 years) and strong reputation in the blockchain space make them a perfect fit. This collaboration empowers the Quilibrium node running community with robust infrastructure for high-performance node hosting. We'll soon unveil the validated server configurations specifically designed for Quilibrium nodes.
 
 Sign-up link: [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW)
 
-**Suggested Options**
+## **Suggested Options**
 
-* **Cloud VDS 4:**&#x20;
+### **Cloud VDS 4**
 
 CPU: 4 x Intel Gold 6230R @ 2.10Ghz (8 vCores)
 
@@ -28,7 +28,7 @@ Bandwidth: 1Gbps uplink, Egress Traffic: 10TB, Ingress unmetered
 96.12 USD/monthly\
 
 
-* **E3-1240V3:**&#x20;
+### **E3-1240V3**&#x20;
 
 CPU: E3-1240v3 -4c/8t - 3.4GHz
 
@@ -43,7 +43,7 @@ Bandwidth: 1Gbps uplink, Egress Traffic: 10TB, Ingress unmetered
 106.92 USD/monthly\
 
 
-* **E3-1240V5:**&#x20;
+### **E3-1240V5**
 
 CPU: E3-1240v5 - 4c/8t - 3.5GHz,&#x20;
 
@@ -60,7 +60,7 @@ Bandwidth: 3Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 106.81 USD/monthly\
 
 
-* **E5-1620V4:**&#x20;
+### **E5-1620V4**
 
 CPU: E5-1620v4 - 4c/8t - 3.5GHz
 
@@ -74,10 +74,9 @@ Backup: 100GB
 
 Bandwidth: 3Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 
-124.20 USD/monthly\
+124.20 USD/monthly
 
-
-* **E5-1650V3:**&#x20;
+### **E5-1650V3**
 
 CPU: E5-1650v3, 6c/12t - 3.5GHz
 
@@ -92,7 +91,7 @@ Bandwidth: 1Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 125.66 USD/monthly\
 
 
-* **E5-1650V4:**&#x20;
+### **E5-1650V4**
 
 CPU: E5-1650v4, 6c/12t - 3.6GHz
 
@@ -107,7 +106,7 @@ Bandwidth: 3Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 132.68 USD/monthly\
 
 
-* **E5-1650V3:**
+### **E5-1650V3**
 
 CPU: E5-1650v3, 6c/12t - 3.5GHz
 
