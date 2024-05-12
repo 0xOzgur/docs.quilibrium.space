@@ -1,13 +1,15 @@
 ---
 description: >-
-  With the release of Quilibrium 1.5.0, the node application will come with the
+  With the release of Quilibrium v2, the node application will come with the
   /client folder to have better visibility on your node's conditions, earned
-  rewards and perform transfer transactions
+  rewards and perform transfer transactions.
 ---
 
 # CLI Commands
 
-### Installing qClient
+You need to&#x20;
+
+## Installing qClient
 
 At first, you need to install qclient to use CLI commands.
 
@@ -16,6 +18,8 @@ cd ceremonyclient/client
 go build -o qclient
 
 ```
+
+## CLI Commands
 
 ### 1. General Command Syntax
 
