@@ -7,7 +7,7 @@ description: >-
 
 # CLI Commands
 
-You need to&#x20;
+Before you begin, ensure you have qClient installed on your system.&#x20;
 
 ## Installing qClient
 
