@@ -30,26 +30,26 @@ If qClient is installed, you can claim your wQuil tokens via ETH Mainnet by foll
 
 <figure><img src=".gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure>
 
-2. Go to Resulst / Claim Rewards Page and search Peer ID of your node&#x20;
+2. Navigate to the Claim Rewards Page and Search for Your Node's Peer ID
 
 <figure><img src=".gitbook/assets/2.jpeg" alt=""><figcaption></figcaption></figure>
 
-3. Connect your EVM Wallet
+3. Please connect your EVM-compatible wallet to proceed.
 
 <figure><img src=".gitbook/assets/3.jpeg" alt=""><figcaption></figcaption></figure>
 
-4. After connecting your wallet, website will give you cross mint code for qClient.&#x20;
+4. Once you connect your wallet, the website will generate a Cross-Mint Proof specifically for your qClient. This code is necessary to claim your wQuil tokens.
 
 <figure><img src=".gitbook/assets/4.jpeg" alt=""><figcaption></figcaption></figure>
 
-Go to your qClient and past that command.&#x20;
+Enter the cross-mint code in your qClient.&#x20;
 
 ```bash
 cd ceremonyclient/client
 ./qclient cross-mint 0x000000000000000000000000000000
 ```
 
-When you run that command, please copy output and paste your response as shown at the screenshot.
+After entering the cross-mint proof in your qClient, copy the resulting output and paste it into the designated field on the website, as shown in the screenshot.
 
 {% code title="Example" overflow="wrap" %}
 ```bash
@@ -61,10 +61,10 @@ result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDy
 
 
 
-6. One last step, press claim buttun and approve necessary transactions
+6. As a final step, click the "Claim" button and approve any required transactions in your wallet.
 
 <figure><img src=".gitbook/assets/5.jpeg" alt=""><figcaption></figcaption></figure>
 
-5. Voila, wQuil tokens will be in your wallet shortly. You can check status of transaction.
+5. Congratulations! Your wQuil tokens will be in your wallet shortly. You can monitor the transaction status and check your wallet for confirmation.
 
 <figure><img src=".gitbook/assets/6.jpeg" alt=""><figcaption></figcaption></figure>
