@@ -4,7 +4,7 @@
 
 ## About Wrapped Quil Token
 
-wQuil token is the wrapped version of Quil tokens on the Equilibrium Network and represents a 1:1 ratio. It aims to free the circulation of Quil tokens until the Quilibrium cross-chain bridge is active. Currently, it will only be available on ETH Mainnet, and the Quilibrium crosschain bridge is planned to be opened with V2.
+wQuil token is the wrapped version of Quil tokens on the Quilibrium Network and represents a 1:1 ratio. It aims to free the circulation of Quil tokens until the Quilibrium cross-chain bridge is active. Currently, it will only be available on ETH Mainnet, and the Quilibrium crosschain bridge is planned to be opened with V2.
 
 ### Token Details
 
