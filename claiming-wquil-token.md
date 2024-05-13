@@ -1,6 +1,6 @@
 # Claiming wQuil Token
 
-<mark style="background-color:red;">These updates are not currently accessible on the website. Information regarding the completion of the updates and the release of v1.4.18 will be announced soon.</mark>
+
 
 ## About Wrapped Quil Token
 
@@ -8,13 +8,13 @@ wQuil token is the wrapped version of Quil tokens on the Quilibrium Network and 
 
 ### Token Details
 
-Name:
+**Name:** Wrapped QUIL
 
-Ticker:
+**Ticker:** wQUIL
 
-Network: ETH Mainnet
+**Network:** ETH Mainnet
 
-Contract Code:
+**Contract Address:** [0x8143182a775c54578c8b7b3ef77982498866945d](https://etherscan.io/token/0x8143182a775c54578c8b7b3ef77982498866945d)
 
 <mark style="color:purple;">Plase add wQuil as custom token to your EVM wallet!</mark>
 
