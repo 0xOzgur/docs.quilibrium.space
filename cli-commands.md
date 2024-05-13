@@ -11,8 +11,15 @@ description: >-
 
 Before you begin, ensure you have qClient installed on your system.&#x20;
 
+Go inside the client folder
+
 ```bash
-cd ceremonyclient/client
+cd ~/ceremonyclient/client
+```
+
+Then build the client
+
+```bash
 GOEXPERIMENT=arenas go build -o qclient main.go
 
 
