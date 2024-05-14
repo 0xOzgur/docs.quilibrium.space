@@ -54,7 +54,7 @@ sudo nano .config/config.yml
 At the end of file, there is a field `listenGrpcMultiaddr: “”`, replace it with
 
 ```bash
-listenGrpcMultiaddr: /ip4/127.0.0.1/tcp/8337
+listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
 listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
 
