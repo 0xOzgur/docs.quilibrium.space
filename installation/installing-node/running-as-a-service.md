@@ -71,7 +71,7 @@ cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info
 Run the DB console:
 
 ```bash
-cd ~/ceremonyclient/node && - GOEXPERIMENT=arenas go run ./... --db-console
+cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... --db-console
 ```
 
 Check Balances:
