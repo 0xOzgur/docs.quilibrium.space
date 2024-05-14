@@ -15,3 +15,4 @@
 * [FAQ](faq.md)
 * [Important Links](important-links.md)
 * [About Documentation](about-documentation.md)
+* [Support](support.md)

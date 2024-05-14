@@ -1,6 +1,6 @@
 # Important Links
 
-✅ **C**ommunity links
+✅ **Community links**
 
 * **Quilibrium Space:** [https://quilibrium.space](https://www.quilibrium.space/)
 * **Documentation:** [https://docs.quilibrium.space](https://docs.quilibrium.space/)
