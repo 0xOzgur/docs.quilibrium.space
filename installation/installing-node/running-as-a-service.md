@@ -2,6 +2,14 @@
 
 If you've already installed and started your Quilibrium Ceremony Client node, you can convert it to a service for easier management. This simplifies tasks like starting, stopping, and monitoring your node.
 
+Build the node binary file;
+
+```
+GOEXPERIMENT=arenas go install ./...
+```
+
+Then we will create service;
+
 ```bash
 nano /lib/systemd/system/ceremonyclient.service
 ```
