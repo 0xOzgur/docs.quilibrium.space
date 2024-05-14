@@ -5,6 +5,10 @@ If you've already installed and started your Quilibrium Ceremony Client node, yo
 Build the node binary file;
 
 ```
+cd ceremonyclient/node
+```
+
+```
 GOEXPERIMENT=arenas go install ./...
 ```
 
