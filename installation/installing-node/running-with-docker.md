@@ -76,7 +76,7 @@ Docker should now be installed, the daemon started, and the process enabled to s
 The only requirements are `git` (to checkout the repository) and docker (to build the image and run the container). Golang does not have to be installed, the docker image build process uses a build stage that provides the correct Go environment and compiles the node down to one command.
 
 ```bash
-git https://github.com/QuilibriumNetwork/ceremonyclient.git
+git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 cd ~/ceremonyclient
 ```
 
