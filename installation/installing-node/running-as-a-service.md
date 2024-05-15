@@ -38,6 +38,8 @@ WantedBy=multi-user.target
 
 Save and exit
 
+## Node Commands
+
 To start service, run
 
 ```bash
@@ -62,7 +64,13 @@ To view service logs run
 sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 ```
 
-Get the node related info (peer id, version, max frame and balance):
+## Get the node related info&#x20;
+
+(peer id, version, max frame and balance):
+
+<mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../configurations.md) <mark style="color:orange;">section.</mark>
+
+See Node Info:
 
 ```bash
 cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info

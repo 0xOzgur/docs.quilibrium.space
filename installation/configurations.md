@@ -4,9 +4,12 @@ description: >-
   correctly.
 ---
 
-# Configurations
+# 📐 Configurations
 
-### Configure your Node Network Firewall  Run:
+Configure your Node Network Firewall\
+\
+Run:
+----
 
 ```bash
 sudo ufw enable
@@ -34,9 +37,10 @@ Response for the status command should be:
 > 443 (v6)      ALLOW             Anywhere (v6)
 ```
 
-### Configure your config.yml
+## Configure your config.yml
 
-**1. Enable gRPC to enable gRPC Function Calls for your Node**\
+### **1. Enable gRPC to enable gRPC Function Calls for your Node**
+
 Note: This interface, while read-only, is unauthenticated and not rate-limited. It is recommended that you only enable them if you are properly controlling access via firewall or only query via localhost (i.e. if port 8337 is used for gRPC calls, best not to allow it on your firewall configuration later and only trigger gRPC calls on localhost).\
 \
 Go to ceremonyclient/node folder.
@@ -58,7 +62,7 @@ listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
 listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
 
-#### 2. Enable Stats Collection by Opt-In
+### 2. Enable Stats Collection by Opt-In
 
 Go to ceremonyclient/node folder.
 
