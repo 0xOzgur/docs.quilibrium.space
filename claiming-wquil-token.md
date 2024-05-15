@@ -1,4 +1,4 @@
-# Claiming wQuil Token
+# 🔥 Claiming wQuil Token
 
 
 
@@ -45,7 +45,7 @@ If qClient is installed, you can claim your wQuil tokens via ETH Mainnet by foll
 Enter the cross-mint code in your qClient.&#x20;
 
 ```bash
-cd ceremonyclient/client
+cd ~/ceremonyclient/client
 ./qclient cross-mint 0x000000000000000000000000000000
 ```
 
@@ -53,7 +53,7 @@ After entering the cross-mint proof in your qClient, copy the resulting output a
 
 {% code title="Example" overflow="wrap" %}
 ```bash
-cd ceremonyclient/client
+cd ~/ceremonyclient/client
 ./qclient cross-mint 0x000000000000000000000000000000
 result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDyWDq9w6uM19hGyDKYB10EVOA", "peerSignature": "2ybumA9VuSrnr5nYPcjehGo/PK6uNI4¡VaOWXkEGms5ChqPFgOJX6Z5eng8U6VSHy85zbeZBukiANE3j2EBxrk4TAf4Z+5uuNMCQ6DasKpkgsxulOGWKhOcBa|2CDicinuMqafU 3YOrXH9cck/OkivwA""proverPublicKev": "CAk3innisW2Bocar/75/3dwiRSaFMRbhYhtCWd@Th77aDvOWFGaoMXIvKHw3B4+vFsmYlVaQ7/iA" "proverSianature".
 ```
@@ -63,7 +63,8 @@ result: ("peerPublicKey": "LLP/9tYlqlsV8AgTky|pK9zjN+OfXNmYMDhmDeEagCMAhjfpPPWDy
 
 {% code overflow="wrap" %}
 ```bash
-cd ceremonyclient/
+cd ~/ceremonyclient
+
 docker compose exec node qclient cross-mint --config .config 0x000000000000000000000000000000
 ```
 {% endcode %}

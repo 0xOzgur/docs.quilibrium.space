@@ -1,4 +1,4 @@
-# Running With Docker
+# 💿 Running With Docker
 
 ## Prepare Requirements
 
@@ -77,7 +77,7 @@ The only requirements are `git` (to checkout the repository) and docker (to buil
 
 ```bash
 git https://github.com/QuilibriumNetwork/ceremonyclient.git
-cd ceremonyclient
+cd ~/ceremonyclient
 ```
 
 In the repository root folder, where the [Dockerfile](https://github.com/QuilibriumNetwork/ceremonyclient/blob/main/Dockerfile) file is, build the docker image:

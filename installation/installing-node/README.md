@@ -1,4 +1,4 @@
-# Installing Node
+# 💽 Installing Node
 
 You must clone latest version of ceremony client.
 
@@ -12,7 +12,7 @@ _If you want to run your node via docker, please follow Installing_ [_Docker ins
 Go to the ceremonyclient/node folder
 
 ```bash
-cd ceremonyclient/node
+cd ~/ceremonyclient/node
 ```
 
 All commands are to be run in the `node/` folder.

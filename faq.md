@@ -1,4 +1,4 @@
-# FAQ
+# ⁉️ FAQ
 
 **What's my balance? Why am I still at 0?**
 
@@ -18,7 +18,7 @@
 
 ```
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
-cd ceremonyclient/node
+cd ~/ceremonyclient/node
 GOEXPERIMENT=arenas go run ./...
 ```
 
