@@ -4,7 +4,7 @@ You must clone latest version of ceremony client.
 
 ```bash
 cd ~
-git  clone  https://github.com/QuilibriumNetwork/ceremonyclient.git
+git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
 
 _If you want to run your node via docker, please follow Installing_ [_Docker instructions_](running-with-docker.md)_._
