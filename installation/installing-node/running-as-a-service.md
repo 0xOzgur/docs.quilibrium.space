@@ -38,6 +38,16 @@ WantedBy=multi-user.target
 
 Save and exit
 
+**Then start the Node**
+
+```bash
+service ceremonyclient start
+```
+
+This will start your Q Node. While at this stage script will create the `.config` folder inside `~/ceremonyclient/node` - with your  `config.yml` and `keys.yml` .
+
+Please do your backup `config.yml` and `keys.yml`files within `~/ceremonyclient/node/.config` folder.
+
 ## Node Commands
 
 To start service, run

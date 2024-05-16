@@ -7,7 +7,15 @@ cd ~
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
 
-_If you want to run your node via docker, please follow Installing_ [_Docker instructions_](running-with-docker.md)_._
+**At this stage, we need to decide whether to run our **<mark style="color:orange;">**Node s a Service**</mark>** or as a **<mark style="color:orange;">**Docker container**</mark>**.**
+
+If you will run it as a service, please follow [**Running as a Service**](running-as-a-service.md) instructions.
+
+If you want to run with Docker, please follow [**Running With Docker**](running-with-docker.md) instructions.
+
+
+
+If you have a voucher from the offline ceremony, first run:
 
 Go to the ceremonyclient/node folder
 
@@ -15,20 +23,15 @@ Go to the ceremonyclient/node folder
 cd ~/ceremonyclient/node
 ```
 
-All commands are to be run in the `node/` folder.
-
-If you have a voucher from the offline ceremony, first run:
+All commands are to be run in the `ceremonyclient/node/` folder.
 
 ```bash
 GOEXPERIMENT=arenas go run ./... -import-priv-key `cat /path/to/voucher.hex`
 ```
 
-If you do not, or have already run the above, run:
+If you want to run manualy or with tmux session, you can run:
 
 ```bash
 GOEXPERIMENT=arenas go run ./...
 ```
 
-This will start your Q Node. While at this stage script will create the `.config` folder inside `~/ceremonyclient/node` - with your  `config.yml` and `keys.yml` .
-
-Please do your backup `config.yml` and `keys.yml`files within `~/ceremonyclient/node/.config` folder.
