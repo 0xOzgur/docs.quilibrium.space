@@ -24,12 +24,12 @@ It will show your git version:
 
 ## **Installing GO**
 
-### **Installing to amd64 systems**
-
 You must strictly install Go version 1.20.14.&#x20;
 
 If you are using arm64 system, please follow [installing to arm64 system](installing-prerequisites.md#installing-to-arm64-systems) link
 
+{% tabs %}
+{% tab title="Amd64 Systems" %}
 ```bash
 wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
 sudo tar -xvf go1.20.14.linux-amd64.tar.gz
@@ -37,40 +37,18 @@ sudo mv go /usr/local
 sudo rm go1.20.14.linux-amd64.tar.gz
 sudo nano ~/.bashrc
 ```
+{% endtab %}
 
-At the end of the file, add these lines and save the file.
-
+{% tab title="Arm64 Systems" %}
 ```bash
-GOROOT=/usr/local/go
-GOPATH=$HOME/go
-PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-```
-
-After you save the file, run:
-
-```bash
-source ~/.bashrc
-```
-
-Check GO Version&#x20;
-
-```bash
-go version
-```
-
-It must show "go version go.1.20.14 linux/amd64" depending on your system.
-
-### **Installing to arm64 systems**
-
-The installation process is similar to amd64 systems, but you'll need to use the appropriate download links and commands for arm64 architecture.
-
-```
 wget https://go.dev/dl/go1.20.14.linux-arm64.tar.gz
 sudo tar -xvf go1.20.14.linux-arm64.tar.gz
 sudo mv go /usr/local
 sudo rm go1.20.14.linux-arm64.tar.gz
 sudo nano ~/.bashrc
 ```
+{% endtab %}
+{% endtabs %}
 
 At the end of the file, add these lines and save the file.
 
@@ -92,7 +70,7 @@ Check GO Version&#x20;
 go version
 ```
 
-It must show "go version go.1.20.14 linux/arm64" depending on your system.
+It must show "go version go.1.20.14 linux/amd64" or  "go version go.1.20.14 linux/arm64" depending on your system.
 
 ## Installing gRPCurl
 
