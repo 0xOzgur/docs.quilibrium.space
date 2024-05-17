@@ -16,3 +16,4 @@
 * [🔗 Important Links](important-links.md)
 * [🙎 About Documentation](about-documentation.md)
 * [💟 Want to say thank you?](want-to-say-thank-you.md)
+* [💁 Support](support.md)

@@ -31,9 +31,11 @@ GOEXPERIMENT=arenas go build -o qclient main.go
 
 The CLI tooling itself will be relatively simple, and the commands can be run as follows (assuming a build in the accompanying _/client_ folder rather than `go run ./...`:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param2> <...>
 ```
+{% endcode %}
 
 ### 2. Querying Balance
 
@@ -47,10 +49,12 @@ Command:
 
 Response:
 
+{% code overflow="wrap" %}
 ```bash
 $ ./qclient token balance
 50.0 QUIL (Account 0x23c0f371e9faa7be4ffedd616361e0c9aeb776ae4d7f3a37605ecbfa40a55a90)
 ```
+{% endcode %}
 
 ### 3. Querying Individual Coins
 
@@ -83,22 +87,27 @@ Command:
 Response:\
 To perform a two-stage transfer, you have two options:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token transfer <ToAccount> <RefundAccount> <Amount>
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
+{% endcode %}
 
 or
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token transfer <ToAccount> <RefundAccount> <OfCoin>
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
+{% endcode %}
 
 Omitting the RefundAccount will simply provide your own originating account. The option to specify exists so that you can maintain anonymity when sending by creating a fresh account to receive the refund. The RefundAccount cannot be the same as the ToAccount.
 
 The first is a user-friendly version of a transfer, akin to what account-based networks like Ethereum and Solana do, where you operate on a balance. Behind the scenes, the client is actually splitting and/or merging coins as needed in order to create the requisite amount to send as a discrete coin. The second is an application-aware version of a transfer, akin to what UTXO-based networks like Bitcoin do, where you operate on the raw coin balance under a specific address. If you have good reason to manage coins separately (yet under the control of the same managing account), you will want to use the second option in conjunction with split/merge operations if needed:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token split <OfCoin> <LeftAmount> <RightAmount>
 <LeftAmount> QUIL (Coin 0x024479f49f03dc53fd702198cd9b548c9e96004e19ef6a4e9c5211a9795ba34d)
@@ -107,22 +116,27 @@ The first is a user-friendly version of a transfer, akin to what account-based n
 ./qclient token merge <LeftCoin> <RightCoin>
 <Total> QUIL (Coin 0x151f4ae225e20759077e1724e4c5d0feae26c477fd10d728dfea962eec79b83f)
 ```
+{% endcode %}
 
 ### 5. Accepting a Pending Transaction
 
 To accept a pending transaction, you simply run:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token accept <PendingTransaction>
 <Amount> QUIL (Coin 0x2688997f2776ab5993894ed04fcdac05577cf2494ddfedf356ebf8bd3de464ab)
 ```
+{% endcode %}
 
 The same applies for rejecting a pending transaction
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token reject <PendingTransaction>
 <Amount> QUIL (PendingTransaction 0x27fff099dee515ece193d2af09b164864e4bb60c19eb6719b5bc981f92151009)
 ```
+{% endcode %}
 
 \
 This creates a separate pending transaction because if the refund address is specified by the originator, and were they to specify another of your own addresses, it would be no different than accepting.
@@ -133,18 +147,22 @@ Pending transactions introduce friction, but without that friction, users can be
 \
 On the receiver's side:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token mutual-receive <ExpectedAmount>
 Rendezvous: 0x2ad567e4fc1ac335a8d3d6077de2ee998aff996b51936da04ee1b0f5dc196a4f
 Awaiting sender...
 ```
+{% endcode %}
 
 and after the sender connects:
 
+{% code overflow="wrap" %}
 ```bash
 Awaiting sender... OK
 <Amount> QUIL (Coin 0x0525c76ecdc6ef21c2eb75df628b52396adcf402ba26a518ac395db8f5874a82)
 ```
+{% endcode %}
 
 On the sender's side:
 
@@ -172,7 +190,9 @@ Tokens issued after v2.0 are issued by nodes providing their proofs to the Mint 
 \
 If you wish to do it manually however, you will need to run:
 
+{% code overflow="wrap" %}
 ```bash
 ./qclient token mint all
 <Amount> QUIL (Coin 0x162ad88c319060b4f5ea6dbf9a0c2cd82d3d70dfc22d5fc99ca5371083d68416)
 ```
+{% endcode %}
