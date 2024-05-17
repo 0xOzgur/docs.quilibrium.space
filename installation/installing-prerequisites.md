@@ -18,11 +18,9 @@ Check the version with
 git --version
 ```
 
-It must show:
+It will show your git version:
 
 > git version 2.34.1
-
-
 
 ## **Installing GO**
 
@@ -95,3 +93,13 @@ go version
 ```
 
 It must show "go version go.1.20.14 linux/arm64" depending on your system.
+
+## Installing gRPCurl
+
+If you already have the GO installed, you can use the `go` tool to install `grpcurl`:
+
+```bash
+go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
+```
+
+If you are sure that all the requirements are installed, you can now proceed to the [installing node](installing-node/) section.
