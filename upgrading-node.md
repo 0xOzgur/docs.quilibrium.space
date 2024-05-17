@@ -4,7 +4,7 @@ description: >-
   updated.
 ---
 
-# Upgrading Node
+# 📀 Upgrading Node
 
 ## Manually Upgrade your Q Node to latest release
 

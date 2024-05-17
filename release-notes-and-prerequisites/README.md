@@ -2,7 +2,7 @@
 description: 'Current Version: 1.4.17 (Aurora) as of May 11, 2024'
 ---
 
-# Release Notes And Prerequisites
+# 💻 Release Notes And Prerequisites
 
 Source: [https://github.com/QuilibriumNetwork/ceremonyclient](https://github.com/QuilibriumNetwork/ceremonyclient)
 

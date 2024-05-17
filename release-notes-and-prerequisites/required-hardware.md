@@ -1,4 +1,4 @@
-# Required Hardware
+# 🖥️ Required Hardware
 
 ## **Minimum System Requirements**
 

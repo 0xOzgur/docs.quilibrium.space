@@ -1,4 +1,4 @@
-# Introduction
+# 🖖 Introduction
 
 ## Welcome to the Quilibrium Space Docs!
 

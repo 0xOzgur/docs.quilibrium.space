@@ -5,7 +5,7 @@ description: >-
   rewards and perform transfer transactions.
 ---
 
-# CLI Commands
+# ⌨️ CLI Commands
 
 ## Installing qClient
 

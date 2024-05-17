@@ -1,4 +1,4 @@
-# Important Links
+# 🔗 Important Links
 
 ✅ **Community links**
 

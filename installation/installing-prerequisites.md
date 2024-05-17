@@ -1,4 +1,4 @@
-# Installing Prerequisites
+# 💾 Installing Prerequisites
 
 The first step is to install the required software.
 

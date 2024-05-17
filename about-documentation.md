@@ -1,4 +1,4 @@
-# About Documentation
+# 🙎 About Documentation
 
 This documentation is provided for informational purposes only and is not an official publication of Quilibrium. It was voluntarily created by [0xOzgur](https://github.com/0xOzgur).&#x20;
 
