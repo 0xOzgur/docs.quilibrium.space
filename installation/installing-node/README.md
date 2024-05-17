@@ -7,7 +7,7 @@ cd ~
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
 
-**At this stage, we need to decide whether to run our **<mark style="color:orange;">**Node s a Service**</mark>** or as a **<mark style="color:orange;">**Docker container**</mark>**.**
+**At this stage, we need to decide whether to run our **<mark style="color:red;">**Node s a Service**</mark>** or as a **<mark style="color:red;">**Docker container**</mark>**.**
 
 If you will run it as a service, please follow [**Running as a Service**](running-as-a-service.md) instructions.
 
