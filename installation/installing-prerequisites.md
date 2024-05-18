@@ -26,7 +26,7 @@ It will show your git version:
 
 You must strictly install Go version 1.20.14.&#x20;
 
-If you are using arm64 system, please follow [installing to arm64 system](installing-prerequisites.md#installing-to-arm64-systems) link
+If you are using arm64 system, please apply the commands at Arm 64 System tab below.
 
 {% tabs %}
 {% tab title="Amd64 Systems" %}
