@@ -129,4 +129,4 @@ Bandwidth: 3Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 
 Personally, I started trying [Aeza ](https://aeza.net/?ref=484456)servers for a while. I specifically use VPSs with dedicated resources and I can say that I have not had any problems so far. I recommend you to use [Aeza ](https://aeza.net/?ref=484456)with its easy installation, uncomplicated management panel and affordable resources in terms of price and performance.
 
-[Aeza](https://aeza.net/?ref=484456)
+Sign-up link: [Aeza](https://aeza.net/?ref=484456)
