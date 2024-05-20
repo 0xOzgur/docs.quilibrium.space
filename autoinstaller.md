@@ -12,7 +12,7 @@ This page explains how to install ceremonyclient with automatic installation scr
 {% tab title="Install as a Service" %}
 Please copy the command below and sit back while node is being built.
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```bash
 wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_quilibrium_service.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config.sh
 chmod u+x install_quilibrium_service.sh config.sh
@@ -40,7 +40,7 @@ Please visit [Running as a Service](installation/installing-node/running-as-a-se
 {% tab title="Install as a Docker" %}
 Please copy the command below and sit back while node is being built.
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```bash
 wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_docker.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config_docker.sh
 chmod u+x install_docker.sh config_docker.sh
