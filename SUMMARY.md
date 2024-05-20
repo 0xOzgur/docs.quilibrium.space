@@ -9,6 +9,7 @@
     * [💿 Running as a Service](installation/installing-node/running-as-a-service.md)
     * [💿 Running With Docker](installation/installing-node/running-with-docker.md)
   * [📐 Configurations](installation/configurations.md)
+* [🤖 AutoInstaller](autoinstaller.md)
 * [📀 Upgrading Node](upgrading-node.md)
 * [⌨️ CLI Commands](cli-commands.md)
 * [🔥 Claiming wQuil Token](claiming-wquil-token.md)
