@@ -40,10 +40,13 @@ Please visit [Running as a Service](installation/installing-node/running-as-a-se
 {% tab title="Install as a Docker" %}
 Please copy the command below and sit back while node is being built.
 
-<pre class="language-bash" data-overflow="wrap" data-line-numbers><code class="lang-bash"><strong>wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_docker.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config_docker.sh
-</strong>chmod u+x install_docker.sh config_docker.sh
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
+wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_docker.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config_docker.sh
+chmod u+x install_docker.sh config_docker.sh
 ./install_docker.sh
-</code></pre>
+```
+{% endcode %}
 
 {% hint style="info" %}
 Please visit [Running With Docker](installation/installing-node/running-with-docker.md) section for required commands to manage your node.
