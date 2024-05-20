@@ -20,7 +20,9 @@ chmod u+x install_quilibrium_service.sh config.sh
 ```
 {% endcode %}
 
-Please wait until setup finish. When you see ceremonyclient logs flowing press CTRL+C then apply this command:
+Please wait until setup finish. When you see ceremonyclient logs let it run for 2 minutes.&#x20;
+
+After that press CTRL+C then apply this command:
 
 ```
 source ~/.bashrc
