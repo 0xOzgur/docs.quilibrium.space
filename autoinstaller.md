@@ -20,7 +20,7 @@ chmod u+x install_quilibrium_service.sh config.sh
 ```
 {% endcode %}
 
-When you see the logs of your node press CTRL+C then apply this command:
+Please wait until setup finish. When you see ceremonyclient logs flowing press CTRL+C then apply this command:
 
 ```
 source ~/.bashrc
