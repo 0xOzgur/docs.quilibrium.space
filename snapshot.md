@@ -1,10 +1,6 @@
----
-description: Thanks to snapshot provider CherryServers.
----
-
 # 📸 Snapshot
 
-If you are having problems with synchronization, you can install the current snapshot store folder on your system with the commands below.
+If you are having difficulties with synchronization, you can install the current snapshot store folder on your system with the commands below.
 
 Thanks to snapshot provider [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW).
 
