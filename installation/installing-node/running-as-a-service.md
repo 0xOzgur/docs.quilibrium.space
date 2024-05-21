@@ -78,7 +78,7 @@ sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 
 (peer id, version, max frame and balance):
 
-<mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../configurations.md) <mark style="color:orange;">section.</mark>
+<mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../../configurations.md) <mark style="color:orange;">section.</mark>
 
 See Node Info:
 
