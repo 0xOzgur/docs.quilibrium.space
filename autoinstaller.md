@@ -8,6 +8,10 @@ description: >-
 
 This page explains how to install ceremonyclient with automatic installation scripts.&#x20;
 
+{% hint style="info" %}
+This automatic installation script is especially designed for fresh installations on newly turned on devices.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Install as a Service" %}
 Please copy the command below and sit back while node is being built.
@@ -20,7 +24,7 @@ chmod u+x install_quilibrium_service.sh config.sh
 ```
 {% endcode %}
 
-Please wait until setup finish. When you see ceremonyclient logs let it run for 2 minutes.&#x20;
+Please wait until setup finish. When you see ceremonyclient logs let it run for 5 minutes.&#x20;
 
 After that press CTRL+C then apply this command:
 
