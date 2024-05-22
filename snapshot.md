@@ -5,11 +5,11 @@ If you are having difficulties with synchronization, you can install the current
 Thanks to snapshot provider [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW).
 
 ```bash
-service ceremonyclient stop
 apt install unzip
 cd ~/ceremonyclient/node/.config
-mv store storeold
 wget https://snapshots.cherryservers.com/quilibrium/store.zip
+service ceremonyclient stop
+mv store storeold
 unzip store.zip
 rm store.zip
 rm -rf storeold
