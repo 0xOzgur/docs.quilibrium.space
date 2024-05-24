@@ -12,3 +12,11 @@ rm -r $HOME/ceremonyclient/node/.config/store && wget -qO- https://snapshots.che
 service ceremonyclient start
 ```
 {% endcode %}
+
+Check if your  ceremonyclient/node/.config folder has REPAIR file. If you don't have REPAIR file in your .config file, do this please;
+
+```bash
+cd ~/ceremonyclient/node/.config
+wget https://snapshots.cherryservers.com/quilibrium/repair
+mv repair REPAIR
+```
