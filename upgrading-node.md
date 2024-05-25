@@ -14,9 +14,7 @@ Please follow the commands in the tabs below according to the system architectur
 {% tab title="AMD64 Systems" %}
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateAmd64.sh 
-chmod u+x updateAmd64.sh
-./updateAmd64.sh
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
 ```
 {% endcode %}
 {% endtab %}
@@ -24,9 +22,7 @@ chmod u+x updateAmd64.sh
 {% tab title="Linux Arm64" %}
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateLinuxArm64.sh
-chmod u+x updateLinuxArm64.sh
-./updateLinuxArm64.sh
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateLinuxArm64.sh | bash
 ```
 {% endcode %}
 {% endtab %}
@@ -34,9 +30,7 @@ chmod u+x updateLinuxArm64.sh
 {% tab title="Darwin Arm64" %}
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDarwinArm64.sh
-chmod u+x updateDarwinArm64.sh
-./updateDarwinArm
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDarwinArm64.sh | bash
 ```
 {% endcode %}
 {% endtab %}
@@ -44,9 +38,8 @@ chmod u+x updateDarwinArm64.sh
 {% tab title="Untitled" %}
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDocker.sh
-chmod u+x updateDocker.sh
-./updateDocker.sh
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDocker.sh | bash
+
 ```
 {% endcode %}
 {% endtab %}
