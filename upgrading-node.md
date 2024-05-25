@@ -8,7 +8,7 @@ description: Please note that, these instructions would upgrade your node to V1.
 
 Note that this update is intended for those who use their nodes as services.
 
-Please follow the commands in the tabs below according to the system architecture you are using.
+Please follow the commands below.&#x20;
 
 This script will cherck your system architecture and upgrade your node based on that info.
 
