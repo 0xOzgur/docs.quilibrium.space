@@ -83,17 +83,17 @@ sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 See Node Info:
 
 ```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
 ```
 
 Run the DB console:
 
 ```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... --db-console
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
 ```
 
 Check Balances:
 
 ```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -balance
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 ./... -balance
 ```
