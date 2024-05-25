@@ -6,7 +6,9 @@ description: Please note that, these instructions would upgrade your node to V1.
 
 ## Upgrading Service
 
+Note that this update is intended for those who use their nodes as services.
 
+Please follow the commands in the tabs below according to the system architecture you are using.
 
 {% tabs %}
 {% tab title="AMD64 Systems" %}
