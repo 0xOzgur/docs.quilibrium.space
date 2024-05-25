@@ -35,7 +35,7 @@ wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateD
 {% endcode %}
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Docker" %}
 {% code overflow="wrap" %}
 ```bash
 wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDocker.sh | bash
