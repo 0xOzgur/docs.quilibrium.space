@@ -16,27 +16,10 @@ This automatic installation script is especially designed for fresh installation
 {% tab title="Install as a Service" %}
 Please copy the command below and sit back while node is being built.
 
-{% code overflow="wrap" %}
-```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_quilibrium_service.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config.sh
-chmod u+x install_quilibrium_service.sh config.sh
-./install_quilibrium_service.sh
-```
-{% endcode %}
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_quilibrium_service.sh | bash
+</strong></code></pre>
 
-Please wait until setup finish. When you see ceremonyclient logs let it run for 5 minutes.&#x20;
 
-After that press CTRL+C then apply this command:
-
-```
-source ~/.bashrc
-```
-
-Lastly run your config script to make your grpcurl enabled
-
-```
-./config.sh
-```
 
 {% hint style="info" %}
 Please visit [Running as a Service](installation/installing-node/running-as-a-service.md) section for required commands to manage your node.
@@ -48,9 +31,7 @@ Please copy the command below and sit back while node is being built.
 
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_docker.sh https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/configuration/config_docker.sh
-chmod u+x install_docker.sh config_docker.sh
-./install_docker.sh
+wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/1.4.18/install/install_docker.sh | bash
 ```
 {% endcode %}
 
