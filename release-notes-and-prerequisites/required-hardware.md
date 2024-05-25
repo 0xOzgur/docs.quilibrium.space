@@ -9,9 +9,9 @@
 
 ## Suggested Service Providers
 
-### CherryServers
+### [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW)
 
-Having partnered with [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW), a European provider of crypto-friendly bare metal and cloud solutions, we're thrilled to announce their custom server options for Q node runners. [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW) embraces the ideals of a free and decentralized internet, offering choice and flexibility without vendor lock-in. Their extensive experience (over 20 years) and strong reputation in the blockchain space make them a perfect fit. This collaboration empowers the Quilibrium node running community with robust infrastructure for high-performance node hosting. We'll soon unveil the validated server configurations specifically designed for Quilibrium nodes.
+Having partnered with [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW), a European provider of crypto-friendly bare metal and cloud solutions, we're thrilled to announce their custom server options for Q node runners. [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW) embraces the ideals of a free and decentralized internet, offering choice and flexibility without vendor lock-in. Their extensive experience (over 20 years) and strong reputation in the blockchain space make them a perfect fit. This collaboration empowers the Quilibrium node running community with robust infrastructure for high-performance node hosting.&#x20;
 
 Sign-up link: [CherryServers](https://www.cherryservers.com/?affiliate=676XHODW)
 
