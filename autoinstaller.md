@@ -16,7 +16,7 @@ This automatic installation script is especially designed for fresh installation
 {% tab title="Install as a Service" %}
 Please copy the command below and sit back while node is being built.
 
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_quilibrium_service.sh | bash
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_quilibrium_service.sh | bash
 </strong></code></pre>
 
 
@@ -31,7 +31,7 @@ Please copy the command below and sit back while node is being built.
 
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_docker.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_docker.sh | bash
 ```
 {% endcode %}
 
