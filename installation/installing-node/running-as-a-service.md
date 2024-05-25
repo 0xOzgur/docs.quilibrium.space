@@ -1,16 +1,21 @@
+---
+description: Installlin Manually v.1.4.18
+---
+
 # 💿 Running as a Service
 
 If you've already installed and started your Quilibrium Ceremony Client node, you can convert it to a service for easier management. This simplifies tasks like starting, stopping, and monitoring your node.
 
-Build the node binary file;
+Get the node binary files and checkout release branch;
 
+{% code overflow="wrap" %}
+```bash
+cd ~
+git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+git pull
+git checkout release
 ```
-cd ~/ceremonyclient/node
-```
-
-```
-GOEXPERIMENT=arenas go install ./...
-```
+{% endcode %}
 
 Then we will create service;
 
@@ -30,7 +35,7 @@ Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
 Environment=GOEXPERIMENT=arenas
-ExecStart=/root/go/bin/node ./...
+ExecStart=/root/ceremonyclient/node/node-1.4.18-linux-amd64
 
 [Install]
 WantedBy=multi-user.target
