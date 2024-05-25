@@ -36,13 +36,19 @@ chmod u+x updateLinuxArm64.sh
 ```bash
 wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDarwinArm64.sh
 chmod u+x updateDarwinArm64.sh
-./updateDarwinArm64.sh
+./updateDarwinArm
 ```
 {% endcode %}
 {% endtab %}
 
-{% tab title="Docker" %}
-Coming soon
+{% tab title="Untitled" %}
+{% code overflow="wrap" %}
+```bash
+wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDocker.sh
+chmod u+x updateDocker.sh
+./updateDocker.sh
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
