@@ -31,7 +31,7 @@ Please copy the command below and sit back while node is being built.
 
 {% code overflow="wrap" %}
 ```bash
-wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/1.4.18/install/install_docker.sh | bash
+wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_docker.sh | bash
 ```
 {% endcode %}
 
