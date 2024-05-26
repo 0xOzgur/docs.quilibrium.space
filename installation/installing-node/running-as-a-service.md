@@ -85,6 +85,12 @@ sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 
 <mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../../configurations.md) <mark style="color:orange;">section.</mark>
 
+See Peer ID:
+
+```bash
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -peer-id
+```
+
 See Node Info:
 
 ```bash
@@ -94,11 +100,11 @@ cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
 Run the DB console:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -db-console
 ```
 
 Check Balances:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --balance
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -balance
 ```
