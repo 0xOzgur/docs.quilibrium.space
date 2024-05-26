@@ -80,4 +80,4 @@ If you already have the GO installed, you can use the `go` tool to install `grpc
 go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
 ```
 
-If you are sure that all the requirements are installed, you can now proceed to the [installing node](installation/installing-node/) section.
+If you are sure that all the requirements are installed, you can now proceed to the [installing node](installation/installing-node.md) section.
