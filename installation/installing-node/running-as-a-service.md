@@ -100,5 +100,5 @@ cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
 Check Balances:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 ./... -balance
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --balance
 ```
