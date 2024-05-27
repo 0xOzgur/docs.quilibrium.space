@@ -13,7 +13,13 @@ If you will run it as a service, please follow [**Running as a Service**](runnin
 
 If you want to run with Docker, please follow [**Running With Docker**](running-with-docker.md) instructions.
 
+**If you want to run manualy or with tmux session, you can run:**
 
+```bash
+cd ~/ceremonyclient/node
+git checkout release 
+./release_autorun.sh
+```
 
 If you have a voucher from the offline ceremony, first run:
 
@@ -28,10 +34,3 @@ All commands are to be run in the `ceremonyclient/node/` folder.
 ```bash
 GOEXPERIMENT=arenas go run ./... -import-priv-key `cat /path/to/voucher.hex`
 ```
-
-If you want to run manualy or with tmux session, you can run:
-
-```bash
-GOEXPERIMENT=arenas go run ./...
-```
-
