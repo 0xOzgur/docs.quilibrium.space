@@ -20,7 +20,20 @@ wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/upda
 
 ## Manually Upgrade your Q Node to latest release
 
-Coming soon
+Make sure to stop your autoscript!&#x20;
+
+Go to node folder:
+
+```bash
+cd ~ceremonyclient/node
+```
+
+Checkout to the correct branch and run autorun.sh script
+
+```bash
+git checkout release 
+./release_autorun.sh
+```
 
 ## Docker Upgrade
 
