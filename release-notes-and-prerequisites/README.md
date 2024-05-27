@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: 1.4.18 (Nebula) as of May 25, 2024'
+description: 'Current Version: v1.4.18-p1 (Nebula) as of May 27, 2024'
 ---
 
 # 💻 Release Notes And Prerequisites

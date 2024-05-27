@@ -1,5 +1,5 @@
 ---
-description: Please note that, these instructions would upgrade your node to V1.4.18
+description: Please note that, these instructions would upgrade your node to v1.4.18-p1
 ---
 
 # 📀 Upgrading Node

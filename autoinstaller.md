@@ -8,6 +8,8 @@ description: >-
 
 This page explains how to install ceremonyclient with automatic installation scripts.&#x20;
 
+This script will install latest version.
+
 {% hint style="info" %}
 This automatic installation script is especially designed for fresh installations on newly turned on devices.
 {% endhint %}
