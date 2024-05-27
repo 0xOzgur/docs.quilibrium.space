@@ -18,7 +18,7 @@ wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/upda
 ```
 {% endcode %}
 
-## Manually Upgrade your Q Node to latest release
+## Upgrade Tmux or Screen Using Nodes
 
 Make sure to stop your autoscript!&#x20;
 
