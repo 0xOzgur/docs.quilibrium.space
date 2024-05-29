@@ -20,7 +20,7 @@ Please copy the command below and sit back while node is being built.
 
 {% code overflow="wrap" %}
 ```bash
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_quilibrium_service.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_quilibrium_service.sh | bash
 ```
 {% endcode %}
 
@@ -30,7 +30,7 @@ The command below will install docker container for your node.
 
 {% code overflow="wrap" %}
 ```bash
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/install/install_docker.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/install/install_docker.sh | bash
 ```
 {% endcode %}
 

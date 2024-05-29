@@ -14,7 +14,7 @@ This script will cherck your system architecture and upgrade your node based on 
 
 {% code overflow="wrap" %}
 ```bash
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/update.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
 ```
 {% endcode %}
 
