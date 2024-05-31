@@ -10,7 +10,7 @@
   * [💿 Running With Docker](installation/running-with-docker.md)
 * [📐 Configurations](configurations.md)
 * [🤖 AutoInstaller](autoinstaller.md)
-* [📀 Upgrading Node](upgrading-node.md)
+* [📀 Update Node](update-node.md)
 * [📸 Snapshot](snapshot.md)
 * [⌨️ CLI Commands](cli-commands.md)
 * [🔥 Claiming wQuil Token](claiming-wquil-token.md)
