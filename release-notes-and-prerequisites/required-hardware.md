@@ -125,8 +125,19 @@ Bandwidth: 3Gbps uplink, Egress Traffic: 30TB, Ingress unmetered
 
 </details>
 
-### AEZA
+### [AEZA](https://aeza.net/?ref=484456)
 
-Personally, I started trying [Aeza ](https://aeza.net/?ref=484456)servers for a while. I specifically use VPSs with dedicated resources and I can say that I have not had any problems so far. I recommend you to use [Aeza ](https://aeza.net/?ref=484456)with its easy installation, uncomplicated management panel and affordable resources in terms of price and performance.
+I recommend you to use [Aeza ](https://aeza.net/?ref=484456)dedicatets with its easy installation, uncomplicated management panel and affordable resources in terms of price and performance.;\
+\- _Also accepts payments in cryptocurrency_
 
 Sign-up link: [Aeza](https://aeza.net/?ref=484456)
+
+### [**UNIHOST**](https://my.unihost.com/aff.php?aff=434)
+
+A wide range of dedicated servers to fit every budget.\
+_₿ - Also accepts payments in cryptocurrency (BTC, ETH, USDT, LTC, SOL)_
+
+\- _Also accepts payments in cryptocurrency_
+
+Sign-up link: [UniHost](https://my.unihost.com/aff.php?aff=434)
+
