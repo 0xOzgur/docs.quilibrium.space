@@ -11,7 +11,6 @@
 * [📐 Configurations](configurations.md)
 * [🤖 AutoInstaller](autoinstaller.md)
 * [📀 Update Node](update-node.md)
-* [📸 Snapshot](snapshot.md)
 * [⌨️ CLI Commands](cli-commands.md)
 * [🔥 Claiming wQuil Token](claiming-wquil-token.md)
 * [⁉️ FAQ](faq.md)
