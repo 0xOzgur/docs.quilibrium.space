@@ -48,7 +48,7 @@ Enter the cross-mint code in your qClient.&#x20;
 
 ```bash
 cd ~/ceremonyclient/client
-./qclient cross-mint 0x000000000000000000000000000000
+./qclient --config=../node/.config/ cross-mint 0x000000000000000000000000000000
 ```
 
 After entering the cross-mint proof in your qClient, copy the resulting output and paste it into the designated field on the website, as shown in the screenshot.
