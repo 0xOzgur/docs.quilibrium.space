@@ -24,27 +24,27 @@ It will show your git version:
 
 ## **Installing GO**
 
-You must strictly install Go version 1.20.14.&#x20;
+You must install Go version 1.24.4.&#x20;
 
 If you are using arm64 system, please apply the commands at Arm 64 System tab below.
 
 {% tabs %}
 {% tab title="Amd64 Systems" %}
 ```bash
-wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
-sudo tar -xvf go1.20.14.linux-amd64.tar.gz
-sudo mv go /usr/local
-sudo rm go1.20.14.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.22.4.linux-amd64.tar.gz
+sudo tar -xvf go1.22.4.linux-amd64.tar.gz
+sudo mv go/usr/local
+sudo rm go1.22.4.linux-amd64.tar.gz
 sudo nano ~/.bashrc
 ```
 {% endtab %}
 
 {% tab title="Arm64 Systems" %}
 ```bash
-wget https://go.dev/dl/go1.20.14.linux-arm64.tar.gz
-sudo tar -xvf go1.20.14.linux-arm64.tar.gz
+wget https://go.dev/dl/go1.22.4.linux-arm64.tar.gz
+sudo tar -xvf go1.22.4.linux-arm64.tar.gz
 sudo mv go /usr/local
-sudo rm go1.20.14.linux-arm64.tar.gz
+sudo rm go1.22.4.linux-arm64.tar.gz
 sudo nano ~/.bashrc
 ```
 {% endtab %}
@@ -70,7 +70,7 @@ Check GO Version&#x20;
 go version
 ```
 
-It must show "go version go.1.20.14 linux/amd64" or  "go version go.1.20.14 linux/arm64" depending on your system.
+It must show "go version go.1.22.4 linux/amd64" or  "go version go.1.22.4 linux/arm64" depending on your system.
 
 ## Installing gRPCurl
 

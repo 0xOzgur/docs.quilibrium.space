@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: v1.4.18-p1 (Nebula) as of May 27, 2024'
+description: 'Current Version: v1.4.19  (Betelgeuse) as of June 08, 2024'
 ---
 
 # 💻 Release Notes And Prerequisites
@@ -9,7 +9,7 @@ Source: [https://github.com/QuilibriumNetwork/ceremonyclient](https://github.com
 **Prerequired Softwares**
 
 * **Git -** version 2.34.1
-* **Go -** version 1.20.14
+* **Go -** version 1.22.4
 
 **Minimum System Requirements**
 

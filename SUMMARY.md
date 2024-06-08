@@ -10,6 +10,7 @@
   * [💿 Running With Docker](installation/running-with-docker.md)
 * [📐 Configurations](configurations.md)
 * [🤖 AutoInstaller](autoinstaller.md)
+* [🥟 Quilibrium for Dummies](quilibrium-for-dummies.md)
 * [📀 Update Node](update-node.md)
 * [⌨️ CLI Commands](cli-commands.md)
 * [🔥 Claiming wQuil Token](claiming-wquil-token.md)
