@@ -32,6 +32,7 @@ Checkout to the correct branch and run autorun.sh script
 
 ```bash
 git remote set-url origin https://source.quilibrium.com/quilibrium/ceremonyclient.git
+git pull
 git checkout release-cdn 
 ./release_autorun.sh
 ```
