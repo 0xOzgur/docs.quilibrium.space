@@ -1,8 +1,8 @@
 ---
-description: Please note that, these instructions would upgrade your node to v1.4.18-p1
+description: Please note that, these instructions would upgrade your node to v1.4.19
 ---
 
-# 📀 Upgrading Node
+# 📀 Update Node
 
 ## Upgrading Service
 
@@ -31,7 +31,8 @@ cd ~ceremonyclient/node
 Checkout to the correct branch and run autorun.sh script
 
 ```bash
-git checkout release 
+git remote set-url origin https://source.quilibrium.com/quilibrium/ceremonyclient.git
+git checkout release-cdn 
 ./release_autorun.sh
 ```
 

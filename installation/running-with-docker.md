@@ -87,11 +87,11 @@ In the repository root folder, where the [Dockerfile](https://github.com/Quilibr
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.17 .
+docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.19 .
 ```
 {% endcode %}
 
-Use latest version instead of `1.4.17`.
+Use latest version instead of `1.4.19`.
 
 The image that is built is light and safe. It is based on Alpine Linux with the Quilibrium node binary, not the source code, nor the Go development environment. The image also has the `grpcurl` tool that can be used to query the gRPC interface.
 

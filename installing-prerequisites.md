@@ -1,5 +1,11 @@
 # 💾 Installing Prerequisites
 
+We strongly recommend running your Node via binary with v.1.4.19. This documentation does not support running nodes using source.
+
+When run with Binary, you do not need to install any additional requirements. But we still share these for those who want to use grpcurl.
+
+
+
 The first step is to install the required software.
 
 ## **Installing Git**

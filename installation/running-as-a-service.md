@@ -11,7 +11,7 @@ Get the node binary files and checkout release branch;
 {% code overflow="wrap" %}
 ```bash
 cd ~
-git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
 git pull
 git checkout release
 ```
@@ -35,7 +35,7 @@ Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
 Environment=GOEXPERIMENT=arenas
-ExecStart=/root/ceremonyclient/node/node-1.4.18-linux-amd64
+ExecStart=/root/ceremonyclient/node/release_autorun.sh
 
 [Install]
 WantedBy=multi-user.target
@@ -83,28 +83,28 @@ sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 
 (peer id, version, max frame and balance):
 
-<mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../../configurations.md) <mark style="color:orange;">section.</mark>
+<mark style="color:orange;">Please note that, you must properly configure your node to run all these commands. For details, visit</mark> [<mark style="color:purple;">**Configuration**</mark>](../configurations.md) <mark style="color:orange;">section.</mark>
 
 See Peer ID:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -peer-id
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -peer-id
 ```
 
 See Node Info:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -node-info
 ```
 
 Run the DB console:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -db-console
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -db-console
 ```
 
 Check Balances:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -balance
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -balance
 ```
