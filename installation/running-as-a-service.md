@@ -1,5 +1,5 @@
 ---
-description: Installlin Manually v.1.4.18
+description: Installlin Manually v.1.4.19
 ---
 
 # 💿 Running as a Service
@@ -13,7 +13,7 @@ Get the node binary files and checkout release branch;
 cd ~
 git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
 git pull
-git checkout release
+git checkout release-cdn
 ```
 {% endcode %}
 
