@@ -6,6 +6,8 @@ I made small script for easy management of your Quilibrium Nodes.
 
 This is all in one package for most required functions.
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 If you want to give a try or use, you can download and give first run via that command.
 
 {% code overflow="wrap" %}
