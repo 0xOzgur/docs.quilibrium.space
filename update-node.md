@@ -12,11 +12,8 @@ Please follow the commands below.&#x20;
 
 This script will cherck your system architecture and upgrade your node based on that info.
 
-{% code overflow="wrap" %}
-```bash
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
-```
-{% endcode %}
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update/update.sh | bash
+</strong></code></pre>
 
 ## Upgrade Tmux or Screen Using Nodes
 
