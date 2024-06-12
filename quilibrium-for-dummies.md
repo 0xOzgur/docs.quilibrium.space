@@ -10,7 +10,7 @@ If you want to give a try or use, you can download and give first run via that c
 
 {% code overflow="wrap" %}
 ```bash
-rm ~/quilibrium_for_dummies.sh && wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/quilibrium_for_dummies.sh && chmod +x quilibrium_for_dummies.sh && ./quilibrium_for_dummies.sh
+rm -f quilibrium_for_dummies.sh && wget https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/quilibrium_for_dummies.sh && chmod +x quilibrium_for_dummies.sh && ./quilibrium_for_dummies.sh
 ```
 {% endcode %}
 
