@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: v1.4.19  (Betelgeuse) as of June 08, 2024'
+description: 'Current Version: v1.4.19.1  (Betelgeuse) as of June 15, 2024'
 ---
 
 # 💻 Release Notes And Prerequisites
