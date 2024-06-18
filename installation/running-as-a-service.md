@@ -13,7 +13,7 @@ Get the node binary files and checkout release branch;
 cd ~
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 git pull
-git checkout release-cdn
+git checkout release
 ```
 {% endcode %}
 
