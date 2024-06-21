@@ -28,33 +28,9 @@ Don't run it on IaaS/PaaS providers like AWS/GCP/Azure. The egress fees will eat
 
 <details>
 
-<summary><strong>How do I run a node?</strong></summary>
-
-If you have git and go 1.20 installed, it's just these three steps:
-
-```
-git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
-cd ~/ceremonyclient/node
-GOEXPERIMENT=arenas go run ./...
-```
-
-If you don't, follow whatever guide for your operating system to install go 1.20 (MUST be 1.20.X, 1.19- won't work, 1.21+ won't either).
-
-</details>
-
-<details>
-
 <summary><strong>I'm getting cannot load arena: malformed module path "arena" when I run it, what am I doing wrong?</strong></summary>
 
 Wrong version of golang. Make sure you installed 1.20 (and it has priority on your PATH environment variable)
-
-</details>
-
-<details>
-
-<summary><strong>-balance tag:</strong></summary>
-
-The -balance command tag when calling the GOEXPERIMENT=arenas go run ./... -balance has been deprecated since Dawn v1.2.9. Unless your node was upgraded to the latest version, yet upgraded from a version <1.2.9 (e.g. 1.2.7) (i.e. the very first version your node ran with was one older than 1.2.9), the -balance command tag will not work anymore and will face the error below.
 
 </details>
 

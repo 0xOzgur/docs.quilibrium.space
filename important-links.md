@@ -10,7 +10,8 @@
 
 ✅ **Official links**&#x20;
 
-* **Website**: [https://quilibrium.com/](https://quilibrium.com/)&#x20;
+* **Website**: [https://quilibrium.com/](https://quilibrium.com/)
+* Forum: [https://quilibrium.discourse.group/](https://quilibrium.discourse.group/)
 * **Warpcast:** [https://warpcast.com/\~/channel/quilibrium](https://warpcast.com/\~/channel/quilibrium)&#x20;
 * **Whitepaper:** [https://quilibrium.com/quilibrium.pdf](https://paragraph.xyz/@quilibrium.com)
 * **Github:** [https://github.com/quilibriumnetwork/](https://paragraph.xyz/@quilibrium.com)

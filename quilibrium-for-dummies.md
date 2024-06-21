@@ -1,3 +1,7 @@
+---
+description: 'Version Info: Quilibrium for Dummies v1.4.20'
+---
+
 # 🥟 Quilibrium for Dummies
 
 Hi Dummy,
@@ -19,3 +23,9 @@ rm -f quilibrium_for_dummies.sh && wget https://raw.githubusercontent.com/0xOzgu
 After first run, `./quilibrium_for_dummies.sh` is enough to run again.
 
 Enjoy :)
+
+
+
+{% hint style="info" %}
+Please note that, you must reinstall Q for Dummies at every version update!
+{% endhint %}

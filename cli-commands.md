@@ -17,13 +17,24 @@ Go inside the client folder
 cd ~/ceremonyclient/client
 ```
 
-Then build the client
+Then download binary of cqlient
 
 ```bash
-GOEXPERIMENT=arenas go build -o qclient main.go
+wget https://releases.quilibrium.com/qclient-1.4.20-linux-amd64
+chmod u+x qclient-1.4.20-linux-amd64
+mv qclient-1.4.20-linux-amd64 qclient
 
 
 ```
+
+{% hint style="info" %}
+Please note that, you must downlod cqlient binary depends on your system architecture. There are 3 different binary option based on systems.
+
+<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-1.4.20-darwin-arm64
+</strong>qclient-1.4.20-linux-arm64
+qclient-1.4.20-linux-amd64
+</code></pre>
+{% endhint %}
 
 ## CLI Commands
 
