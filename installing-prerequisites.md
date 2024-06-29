@@ -39,7 +39,7 @@ If you are using arm64 system, please apply the commands at Arm 64 System tab be
 ```bash
 wget https://go.dev/dl/go1.22.4.linux-amd64.tar.gz
 sudo tar -xvf go1.22.4.linux-amd64.tar.gz
-sudo mv go/usr/local
+sudo mv go /usr/local
 sudo rm go1.22.4.linux-amd64.tar.gz
 sudo nano ~/.bashrc
 ```
