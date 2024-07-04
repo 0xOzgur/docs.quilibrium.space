@@ -12,6 +12,7 @@ Get the node binary files and checkout release branch;
 ```bash
 cd ~
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+cd ceremonyclient
 git pull
 git checkout release
 ```
