@@ -1,6 +1,6 @@
 # 💾 Installing Prerequisites
 
-We strongly recommend running your Node via binary after v.1.4.19. This documentation does not support running or building nodes using source.
+We strongly recommend running your Node via binary after v1.4.21. This documentation does not support running or building nodes using source.
 
 When run with Binary, you do not need to install any additional requirements. But we still share these for those who want to use grpcurl.
 
