@@ -4,7 +4,7 @@ Apart from using [referral links](release-notes-and-prerequisites/required-hardw
 
 {% tabs %}
 {% tab title="ETH" %}
-ETH-ERC20: 0x423172614493E560f0B185233c29A4F5E48bDeEa
+ETH-ERC20: 0xD577F6c808F2643acD063bf92be945bFf50CBb83
 
 Any token ERC20 Compatible can be sent.
 {% endtab %}
