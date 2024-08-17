@@ -1,5 +1,5 @@
 ---
-description: Installlin Manually v1.4.21
+description: Installlin Manually v1.4.21.1
 ---
 
 # 💿 Running as a Service
@@ -89,23 +89,23 @@ sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 See Peer ID:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.21-linux-amd64 -peer-id
+cd ~/ceremonyclient/node && ./node-1.4.21.1-linux-amd64 -peer-id
 ```
 
 See Node Info:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.21-linux-amd64 -node-info
+cd ~/ceremonyclient/node && ./node-1.4.21.1-linux-amd64 -node-info
 ```
 
 Run the DB console:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.21-linux-amd64 -db-console
+cd ~/ceremonyclient/node && ./node-1.4.21.1-linux-amd64 -db-console
 ```
 
 Check Balances:
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.21-linux-amd64 -balance
+cd ~/ceremonyclient/node && ./node-1.4.21.1-linux-amd64 -balance
 ```
