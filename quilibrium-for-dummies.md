@@ -1,5 +1,5 @@
 ---
-description: 'Version Info: Quilibrium for Dummies v1.4.21'
+description: 'Version Info: Quilibrium for Dummies v2.0.0.1'
 ---
 
 # 🥟 Quilibrium for Dummies
@@ -10,7 +10,7 @@ I made small script for easy management of your Quilibrium Nodes.
 
 This is all in one package for most required functions.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Quilibrium For Dummies Screenshot</p></figcaption></figure>
 
 If you want to give a try or use, you can download and give first run via that command.
 

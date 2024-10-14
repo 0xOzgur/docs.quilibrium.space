@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: v1.4.21  (Centauri) as of July 06, 2024'
+description: 'Current Version: vv2.0.0.1 (Dusk) as of Oct 16, 2024'
 ---
 
 # 💻 Release Notes And Prerequisites

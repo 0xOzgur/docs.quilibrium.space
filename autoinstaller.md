@@ -1,7 +1,7 @@
 ---
 description: >-
-  The development has been carried out by 0xOzgur.eth and you should use it at
-  your own risk.
+  The development has been carried out by 0xOzgur and you should use it at your
+  own risk.
 ---
 
 # 🤖 AutoInstaller

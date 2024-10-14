@@ -9,6 +9,8 @@ description: >-
 
 ## Installing qClient
 
+_If you already use Quilibrium for Dummies, qClient must have been installed already._
+
 Before you begin, ensure you have qClient installed on your system.&#x20;
 
 Go inside the client folder
@@ -20,9 +22,9 @@ cd ~/ceremonyclient/client
 Then download binary of cqlient
 
 ```bash
-wget https://releases.quilibrium.com/qclient-1.4.19.1-linux-amd64
-chmod u+x qclient-1.4.19.1-linux-amd64
-mv qclient-1.4.19.1-linux-amd64 qclient
+wget https://releases.quilibrium.com/qclient-2.0.0-linux-amd64
+chmod u+x qclient-2.0.0-linux-amd64
+mv qclient-2.0.0-linux-amd64 qclient
 
 
 ```
@@ -30,9 +32,9 @@ mv qclient-1.4.19.1-linux-amd64 qclient
 {% hint style="info" %}
 Please note that, you must downlod cqlient binary depends on your system architecture. There are 3 different binary option based on systems.
 
-<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-1.4.19.1-darwin-arm64
-</strong>qclient-1.4.19.1-linux-arm64
-qclient-1.4.19.1-linux-amd64
+<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0-darwin-arm64
+</strong>qclient-2.0.0-linux-arm64
+qclient-2.0.0-linux-amd64
 </code></pre>
 {% endhint %}
 
