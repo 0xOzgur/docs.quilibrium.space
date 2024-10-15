@@ -23,8 +23,8 @@ Then download binary of cqlient
 
 ```bash
 wget https://releases.quilibrium.com/qclient-2.0.0-linux-amd64
-chmod u+x qclient-2.0.0-linux-amd64
-mv qclient-2.0.0-linux-amd64 qclient
+chmod u+x qclient-2.0.0.2-linux-amd64
+mv qclient-2.0.0.2-linux-amd64 qclient
 
 
 ```
@@ -32,9 +32,9 @@ mv qclient-2.0.0-linux-amd64 qclient
 {% hint style="info" %}
 Please note that, you must downlod cqlient binary depends on your system architecture. There are 3 different binary option based on systems.
 
-<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0-darwin-arm64
-</strong>qclient-2.0.0-linux-arm64
-qclient-2.0.0-linux-amd64
+<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0.2-darwin-arm64
+</strong>qclient-2.0.0.2-linux-arm64
+qclient-2.0.0.2-linux-amd64
 </code></pre>
 {% endhint %}
 
@@ -50,7 +50,18 @@ The CLI tooling itself will be relatively simple, and the commands can be run as
 ```
 {% endcode %}
 
-### 2. Querying Balance
+### 3. Merge Keys
+
+For the example provided, it is assumed qclient lives in the `client/` folder alongside the `node/` folder where the `.config*/` folders are contained
+
+{% code overflow="wrap" %}
+```bash
+./../client/qclient-2.0.0-linux-amd64 config prover merge --dry-run /root/ceremonyclient/node/.config /root/ceremonyclient/node/.config1
+
+```
+{% endcode %}
+
+### 4. Querying Balance
 
 The command line tool takes arguments in either decimal (xx.xxxxx) format or raw unit (0x00000) format. Note that raw units are a multiple of QUIL: 1 QUIL = 0x1DCD65000 units\
 \
@@ -69,7 +80,7 @@ $ ./qclient token balance
 ```
 {% endcode %}
 
-### 3. Querying Individual Coins
+### 5. Querying Individual Coins
 
 Users may wish to view the individual coins:\
 \
@@ -87,7 +98,7 @@ $ client token coins
 25.0 QUIL (Coin 0x2dda9dc9770a1e5a01974fcd5af2a77147d0f19fb4935a1df677ec6050be0a9e)
 ```
 
-### 4. Creating a Pending Transaction
+### 6. Creating a Pending Transaction
 
 Quilibrium's token application has two modes: a two-stage transfer/accept (or reject), or a single-stage mutual transfer.\
 \
@@ -131,7 +142,7 @@ The first is a user-friendly version of a transfer, akin to what account-based n
 ```
 {% endcode %}
 
-### 5. Accepting a Pending Transaction
+### 7. Accepting a Pending Transaction
 
 To accept a pending transaction, you simply run:
 
@@ -154,7 +165,7 @@ The same applies for rejecting a pending transaction
 \
 This creates a separate pending transaction because if the refund address is specified by the originator, and were they to specify another of your own addresses, it would be no different than accepting.
 
-### 6. Performing a Mutual Transfer
+### 8. Performing a Mutual Transfer
 
 Pending transactions introduce friction, but without that friction, users can be spammed coins they don't want, or sent coins from an address they do not wish to interact with. If both parties agree in advance to transact, they can perform a mutual transfer, where both parties must be online, but can avoid having to deal with the two-phase transaction. This is great for maintaining privacy (each party's account is private) as well as ensuring a timely completion of a transaction:\
 \
@@ -195,7 +206,7 @@ Confirming rendezvous... OK
 
 This will likely be the first unique experience Quilibrium provides to users already familiar with other networks, as privacy preservation is an immediately obvious and first class experience here by showing the user what it can (or _cannot_) see.
 
-### 7. Claiming Rewards
+### 9. Claiming Rewards
 
 _Claiming rewards as wQuil, please visit_ [Claiming wQuil Token section](claiming-wquil-token.md).
 

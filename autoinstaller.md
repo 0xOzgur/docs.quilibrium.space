@@ -6,7 +6,7 @@ description: >-
 
 # 🤖 AutoInstaller
 
-This page explains how to install ceremonyclient with automatic installation scripts.&#x20;
+This page explains how to install ceremonyclient and qClient with automatic installation scripts.&#x20;
 
 This script will install latest version.
 

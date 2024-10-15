@@ -1,5 +1,7 @@
 ---
-description: Please note that, these instructions would upgrade your node to v2.0.0.1
+description: >-
+  Please note that, these instructions would upgrade your node to v2.0.0.3 and
+  qClient v2.0.0.2
 ---
 
 # 📀 Update Node
