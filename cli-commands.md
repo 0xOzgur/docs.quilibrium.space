@@ -68,7 +68,7 @@ The command line tool takes arguments in either decimal (xx.xxxxx) format or raw
 Command:
 
 ```bash
-./qclient token balance
+./qclient-2.0.0.5-linux-amd64 token balance --config ../node/.config/
 ```
 
 Response:
@@ -87,7 +87,7 @@ Users may wish to view the individual coins:\
 Command:
 
 ```bash
-./qclient token coins
+./qclient-2.0.0.5-linux-amd64 token coins --config ../node/.config/
 ```
 
 Response:
@@ -104,9 +104,11 @@ Quilibrium's token application has two modes: a two-stage transfer/accept (or re
 \
 Command:
 
+{% code overflow="wrap" %}
 ```bash
-./qclient token transfer <ToAccount> <RefundAccount> <Amount|OfCoin>
+../qclient-2.0.0.5-linux-amd64  token transfer <ToAccount> <RefundAccount> <Amount|OfCoin> --config ../node/.config/
 ```
+{% endcode %}
 
 Response:\
 To perform a two-stage transfer, you have two options:
