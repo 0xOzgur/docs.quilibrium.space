@@ -22,9 +22,9 @@ cd ~/ceremonyclient/client
 Then download binary of cqlient
 
 ```bash
-wget https://releases.quilibrium.com/qclient-2.0.0-linux-amd64
-chmod u+x qclient-2.0.0.2-linux-amd64
-mv qclient-2.0.0.2-linux-amd64 qclient
+wget https://releases.quilibrium.com/qclient-2.0.0.5-linux-amd64
+chmod u+x qclient-2.0.0.5-linux-amd64
+mv qclient-2.0.0.5-linux-amd64 qclient
 
 
 ```
@@ -32,9 +32,9 @@ mv qclient-2.0.0.2-linux-amd64 qclient
 {% hint style="info" %}
 Please note that, you must downlod cqlient binary depends on your system architecture. There are 3 different binary option based on systems.
 
-<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0.2-darwin-arm64
-</strong>qclient-2.0.0.2-linux-arm64
-qclient-2.0.0.2-linux-amd64
+<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0.5-darwin-arm64
+</strong>qclient-2.0.0.5-linux-arm64
+qclient-2.0.0.5-linux-amd64
 </code></pre>
 {% endhint %}
 
@@ -56,7 +56,7 @@ For the example provided, it is assumed qclient lives in the `client/` folder al
 
 {% code overflow="wrap" %}
 ```bash
-./../client/qclient-2.0.0-linux-amd64 config prover merge --dry-run /root/ceremonyclient/node/.config /root/ceremonyclient/node/.config1
+./../client/qclient-2.0.0.5-linux-amd64 config prover merge --dry-run /root/ceremonyclient/node/.config /root/ceremonyclient/node/.config1
 
 ```
 {% endcode %}
