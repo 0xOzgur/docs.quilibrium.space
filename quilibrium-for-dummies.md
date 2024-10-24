@@ -1,5 +1,5 @@
 ---
-description: 'Version Info: Quilibrium for Dummies v2.0.0.8 & qClient v2.0.0.5'
+description: 'Version Info: Quilibrium for Dummies v2.0.1'
 ---
 
 # 🥟 Quilibrium for Dummies

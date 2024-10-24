@@ -1,5 +1,5 @@
 ---
-description: 'Current Version: vv2.0.0.8 (Dusk) as of Oct 18, 2024'
+description: 'Current Version: v2.0.1 (Dusk) as of Oct 24, 2024'
 ---
 
 # 💻 Release Notes And Prerequisites

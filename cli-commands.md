@@ -22,8 +22,8 @@ cd ~/ceremonyclient/client
 Then download binary of cqlient
 
 ```bash
-wget https://releases.quilibrium.com/qclient-2.0.0.5-linux-amd64
-chmod u+x qclient-2.0.0.5-linux-amd64
+wget https://releases.quilibrium.com/qclient-2.0.1-linux-amd64
+chmod u+x qclient-2.0.1-linux-amd64
 mv qclient-2.0.0.5-linux-amd64 qclient
 
 
@@ -32,9 +32,9 @@ mv qclient-2.0.0.5-linux-amd64 qclient
 {% hint style="info" %}
 Please note that, you must downlod cqlient binary depends on your system architecture. There are 3 different binary option based on systems.
 
-<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.0.5-darwin-arm64
-</strong>qclient-2.0.0.5-linux-arm64
-qclient-2.0.0.5-linux-amd64
+<pre class="language-markup" data-line-numbers><code class="lang-markup"><strong>qclient-2.0.1-darwin-arm64
+</strong>qclient-2.0.1-linux-arm64
+qclient-2.0.1-linux-amd64
 </code></pre>
 {% endhint %}
 
@@ -56,7 +56,7 @@ For the example provided, it is assumed qclient lives in the `client/` folder al
 
 {% code overflow="wrap" %}
 ```bash
-./../client/qclient-2.0.0.5-linux-amd64 config prover merge --dry-run /root/ceremonyclient/node/.config /root/ceremonyclient/node/.config1
+./../client/qclient-2.0.1-linux-amd64 config prover merge --dry-run /root/ceremonyclient/node/.config /root/ceremonyclient/node/.config1
 
 ```
 {% endcode %}
@@ -68,7 +68,7 @@ The command line tool takes arguments in either decimal (xx.xxxxx) format or raw
 Command:
 
 ```bash
-./qclient-2.0.0.5-linux-amd64 token balance --config ../node/.config/
+./qclient-2.0.1-linux-amd64 token balance --config ../node/.config/
 ```
 
 Response:
@@ -87,7 +87,7 @@ Users may wish to view the individual coins:\
 Command:
 
 ```bash
-./qclient-2.0.0.5-linux-amd64 token coins --config ../node/.config/
+./qclient-2.0.1-linux-amd64 token coins --config ../node/.config/
 ```
 
 Response:
@@ -106,7 +106,7 @@ Command:
 
 {% code overflow="wrap" %}
 ```bash
-../qclient-2.0.0.5-linux-amd64  token transfer <ToAccount> <RefundAccount> <Amount|OfCoin> --config ../node/.config/
+../qclient-2.0.1-linux-amd64  token transfer <ToAccount> <RefundAccount> <Amount|OfCoin> --config ../node/.config/
 ```
 {% endcode %}
 
